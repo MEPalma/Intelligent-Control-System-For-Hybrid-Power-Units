@@ -1,0 +1,47 @@
+Const temp1 Ambient : {Temp: Cel 21; HeadWind: MS 2; TailWind: MS 2; DryAirPressure: KPascal 101; VapourPressure: Torr 23};
+
+
+Const str RoadUnit : {
+        Speed: 0;
+        Length: Km 5;
+        Slope: 0;
+        CornerRadius: 0;
+        Ambient: temp1
+    };
+
+
+Itinerary : [
+    Halt,
+    str(Speed: KPH 70, Length: Km 2.5),
+    str(Speed: KPH 100, Length: Km 0.2, CornerRadius: Km 4),
+    str(Speed: KPH 90, Length: Km 2),
+    Halt,
+    str(Speed: KPH 50, Length: Km 0.5),
+    str(Speed: KPH 70, Length: Km 5),
+    Halt,
+    str(Speed: KPH 90, Length: Km 2),
+    str(Speed: KPH 90, Length: Km 0.5, Slope: Deg 4),
+    str(Speed: KPH 90, Length: Km 6),
+    str(Speed: KPH 50, Length: Km 2),
+    str(Speed: KPH 70, Length: Km 1.5),
+    str(Speed: KPH 80, Length: Km 1),
+    str(Speed: KPH 110, Length: Km 5),
+    str(Speed: KPH 70, Length: Km 2),
+    str(Speed: KPH 50, Length: Km 3),
+    str(Speed: KPH 90, Length: Km 0.6),
+    str(Speed: KPH 90, Length: Km 3),
+    str(Speed: KPH 70, Length: Km 5),
+    str(Speed: KPH 50, Length: Km 2),
+    str(Speed: KPH 50, Length: Km 3, Slope: Deg 1),
+    str(Speed: KPH 30, Length: Km 0.5),
+    str(Speed: KPH 50, Length: Km 2),
+    str(Speed: KPH 50, Length: Km 2),
+    str(Speed: KPH 50, Length: Km 2),
+    str(Speed: KPH 50, Length: Km 2),
+    str(Speed: KPH 50, Length: Km 2),
+    Halt,
+    str(Speed: KPH 50, Length: Km 1),
+    str(Speed: KPH 70, Length: Km 3),
+    str(Speed: KPH 90, Length: Km 3),
+    Halt
+]

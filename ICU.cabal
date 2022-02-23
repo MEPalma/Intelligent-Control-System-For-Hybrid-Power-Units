@@ -1,0 +1,216 @@
+cabal-version: 1.12
+name: ICU
+version: 0.1.0.0
+license: BSD3
+license-file: LICENSE
+copyright: 2019-2020 Marco Edoardo Palma
+maintainer: mep2g17@soton.ac.uk
+author: Marco Edoardo Palma
+homepage: none
+bug-reports: none
+description:
+    Intelligent Control Unit For Hybrid Power Units
+build-type: Simple
+extra-source-files:
+    README.md
+    ChangeLog.md
+
+source-repository head
+    type: git
+
+library
+    exposed-modules:
+        Start
+        Commons.ColoredOutput
+        Commons.Currency
+        Commons.ISUnits
+        Commons.UnitShow
+        Commons.Utilities
+        Commons.Threading
+        GearboxDynamics.Gearbox
+        GearboxDynamics.GearboxDynamics
+        Itinerary.Itinerary
+        Itinerary.Parser.Grammar
+        Itinerary.Parser.MainParser
+        Itinerary.Parser.Tokens
+        Itinerary.Parser.UnexItinerary
+        Itinerary.ProcessedItinerary
+        MultivariateRegression.MultivariateRegression
+        PowerUnit.EPowerUnit.EEngine
+        PowerUnit.EPowerUnit.Electricity
+        PowerUnit.EPowerUnit.EPowerUnit
+        PowerUnit.EPowerUnit.EPowerUnitEfficiencyModeller
+        PowerUnit.EPowerUnit.EPowerUnitEfficiencyRetrieval
+        PowerUnit.EPowerUnit.EPowerUnitType
+        PowerUnit.EPowerUnit.ETel
+        PowerUnit.EPowerUnit.ETelInputNode
+        PowerUnit.EPowerUnit.Regen.RegenEfficiencyModeller
+        PowerUnit.EPowerUnit.Regen.RegenEfficiencyRetrieval
+        PowerUnit.EPowerUnit.Regen.RTel
+        PowerUnit.EPowerUnit.Regen.RTelInputNode
+        PowerUnit.ICPowerUnit.Fuel.Fuel
+        PowerUnit.ICPowerUnit.Fuel.FuelConsts
+        PowerUnit.ICPowerUnit.ICEngine
+        PowerUnit.ICPowerUnit.ICPowerUnit
+        PowerUnit.ICPowerUnit.ICPowerUnitEfficiencyModeller
+        PowerUnit.ICPowerUnit.ICPowerUnitEfficiencyRetrieval
+        PowerUnit.ICPowerUnit.ICPowerUnitType
+        PowerUnit.ICPowerUnit.ICTel
+        PowerUnit.ICPowerUnit.ICTelInputNode
+        PowerUnit.PowerUnit
+        PowerUnit.PowerUnitCostCalculator
+        PowerUnit.PowerUnitTypes
+        PowerUnit.PredictionStrategy
+        Searches.Commons
+        Searches.Solution
+        Searches.NoHybridSimulated
+        Searches.Simulated
+        Searches.BruteForceProgressive
+        Searches.Genetic
+        Searches.Greedy
+        KNNRegression.KNN
+        KNNRegression.KNNRegressionClass
+        KNNRegression.KNNConfig
+
+        Vehicle.Vehicle
+        Vehicle.VehicleState
+        VehicleDynamics.AeroDrag
+        VehicleDynamics.RoadLoad
+        VehicleDynamics.VehicleDynamics
+        VehicleDynamics.VehiclePhysics
+
+        Vehicle.VehicleConsts.BMWi3Consts
+        Vehicle.VehicleConsts.NissanLeafConsts
+        Vehicle.VehicleConsts.Fiat500Consts
+        Vehicle.VehicleConsts.FordFusionV6Consts
+        Vehicle.VehicleConsts.TestVehicles.TestVehicle
+        
+        Spec
+        Regen
+        Gearbox
+        SteadyPace
+        MyChartMaker
+        ICEngine
+        EEngine
+        EEngineRegen
+        ICEngineFiat500
+        ICEngineFordFusionV6
+        EEngineBMWi3
+        EEngineNissanLeaf
+
+    hs-source-dirs:
+        src
+        test
+    default-language: Haskell2010
+    build-depends:
+        base >=4.7 && <5,
+        containers -any,
+        unordered-containers -any,
+        heap -any,
+        hashable -any,
+        random -any,
+        cassava -any,
+        text -any,
+        vector -any,
+        directory -any,
+        bytestring -any,
+        utf8-string -any,
+        plotlyhs -any,
+        aeson -any,
+        lucid -any,
+        microlens -any,
+        array -any,
+        matrix -any,
+        parallel -any,
+        deepseq -any,
+        ansi-terminal -any,
+        random-shuffle -any,
+        MonadRandom -any,
+        rio -any,
+        time -any,
+        scientific -any
+
+executable ICU-exe
+    main-is: Main.hs
+    hs-source-dirs: app
+    other-modules:
+        Paths_ICU
+    default-language: Haskell2010
+    ghc-options: -threaded -rtsopts -with-rtsopts=-N
+    build-depends:
+        ICU -any,
+        base >=4.7 && <5,
+        containers -any,
+        unordered-containers -any,
+        heap -any,
+        hashable -any,
+        random -any,
+        cassava -any,
+        text -any,
+        vector -any,
+        directory -any,
+        bytestring -any,
+        utf8-string -any,
+        plotlyhs -any,
+        aeson -any,
+        lucid -any,
+        microlens -any,
+        array -any,
+        matrix -any,
+        parallel -any,
+        deepseq -any,
+        ansi-terminal -any,
+        random-shuffle -any,
+        MonadRandom -any,
+        rio -any,
+        time -any,
+        scientific -any
+
+test-suite ICU-test
+    type: exitcode-stdio-1.0
+    main-is: Spec.hs
+    hs-source-dirs: test
+    other-modules:
+        Paths_ICU
+        Spec
+        Regen
+        Gearbox
+        SteadyPace
+        MyChartMaker
+        ICEngine
+        EEngine
+        EEngineRegen
+        ICEngineFiat500
+        ICEngineFordFusionV6
+        EEngineBMWi3
+        EEngineNissanLeaf
+    default-language: Haskell2010
+    ghc-options: -threaded -rtsopts -with-rtsopts=-N
+    build-depends:
+        ICU -any,
+        base >=4.7 && <5,
+        containers -any,
+        unordered-containers -any,
+        heap -any,
+        hashable -any,
+        random -any,
+        cassava -any,
+        text -any,
+        vector -any,
+        directory -any,
+        bytestring -any,
+        utf8-string -any,
+        plotlyhs -any,
+        aeson -any,
+        lucid -any,
+        microlens -any,
+        array -any,
+        matrix -any,
+        parallel -any,
+        deepseq -any,
+        ansi-terminal -any,
+        random-shuffle -any,
+        MonadRandom -any,
+        rio -any,
+        time -any,
+        scientific -any

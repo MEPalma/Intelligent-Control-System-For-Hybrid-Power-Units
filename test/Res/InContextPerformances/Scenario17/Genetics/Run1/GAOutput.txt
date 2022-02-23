@@ -1,0 +1,602 @@
++------------+
+| INPUT FILE |
++------------+
+[RU::{Speed: 0.0000kph, Length: 0.0000km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,RU::{Speed: 50.0000kph, Length: 0.2000km, Slope: 3.0000°, Corner-Radius: 6.0000m}
+,RU::{Speed: 50.0000kph, Length: 0.8000km, Slope: 2.5000°, Corner-Radius: 0.0000m}
+,RU::{Speed: 50.0000kph, Length: 0.2000km, Slope: 3.0000°, Corner-Radius: 6.0000m}
+,RU::{Speed: 50.0000kph, Length: 0.8000km, Slope: 2.5000°, Corner-Radius: 0.0000m}
+,RU::{Speed: 50.0000kph, Length: 0.2000km, Slope: 3.0000°, Corner-Radius: 4.0000m}
+,RU::{Speed: 50.0000kph, Length: 0.8000km, Slope: 3.0000°, Corner-Radius: 0.0000m}
+,RU::{Speed: 50.0000kph, Length: 0.8000km, Slope: 2.0000°, Corner-Radius: 0.0000m}
+,RU::{Speed: 50.0000kph, Length: 0.2000km, Slope: 2.0000°, Corner-Radius: 4.0000m}
+,RU::{Speed: 50.0000kph, Length: 0.8000km, Slope: 3.0000°, Corner-Radius: 0.0000m}
+,RU::{Speed: 50.0000kph, Length: 1.0000km, Slope: 5.0000°, Corner-Radius: 0.0000m}
+,RU::{Speed: 50.0000kph, Length: 0.1000km, Slope: 5.0000°, Corner-Radius: 4.0000m}
+,RU::{Speed: 50.0000kph, Length: 1.0000km, Slope: 5.0000°, Corner-Radius: 0.0000m}
+,RU::{Speed: 50.0000kph, Length: 0.5000km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,RU::{Speed: 0.0000kph, Length: 0.0000km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,RU::{Speed: 50.0000kph, Length: 0.3000km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,RU::{Speed: 0.0000kph, Length: 0.0000km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,RU::{Speed: 50.0000kph, Length: 1.0000km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,RU::{Speed: 70.0000kph, Length: 5.0000km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,RU::{Speed: 50.0000kph, Length: 2.0000km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,RU::{Speed: 0.0000kph, Length: 0.0000km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,RU::{Speed: 30.0000kph, Length: 0.5000km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,RU::{Speed: 50.0000kph, Length: 2.0000km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,RU::{Speed: 70.0000kph, Length: 5.0000km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,RU::{Speed: 90.0000kph, Length: 10.0000km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,RU::{Speed: 50.0000kph, Length: 1.0000km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,RU::{Speed: 70.0000kph, Length: 2.0000km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,RU::{Speed: 30.0000kph, Length: 0.5000km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,RU::{Speed: 50.0000kph, Length: 2.0000km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,RU::{Speed: 70.0000kph, Length: 5.0000km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,RU::{Speed: 90.0000kph, Length: 10.0000km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,RU::{Speed: 50.0000kph, Length: 1.0000km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,RU::{Speed: 70.0000kph, Length: 2.0000km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,RU::{Speed: 0.0000kph, Length: 0.0000km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,RU::{Speed: 50.0000kph, Length: 0.5000km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,RU::{Speed: 50.0000kph, Length: 1.0000km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,RU::{Speed: 60.0000kph, Length: 1.0000km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,RU::{Speed: 0.0000kph, Length: 0.0000km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,RU::{Speed: 50.0000kph, Length: 0.5000km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,RU::{Speed: 70.0000kph, Length: 5.0000km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,RU::{Speed: 50.0000kph, Length: 0.2000km, Slope: 3.0000°, Corner-Radius: 6.0000m}
+,RU::{Speed: 50.0000kph, Length: 0.8000km, Slope: 2.5000°, Corner-Radius: 0.0000m}
+,RU::{Speed: 50.0000kph, Length: 0.2000km, Slope: 3.0000°, Corner-Radius: 6.0000m}
+,RU::{Speed: 50.0000kph, Length: 0.8000km, Slope: 2.5000°, Corner-Radius: 0.0000m}
+,RU::{Speed: 50.0000kph, Length: 0.2000km, Slope: 3.0000°, Corner-Radius: 4.0000m}
+,RU::{Speed: 50.0000kph, Length: 0.8000km, Slope: 3.0000°, Corner-Radius: 0.0000m}
+,RU::{Speed: 50.0000kph, Length: 0.8000km, Slope: 2.0000°, Corner-Radius: 0.0000m}
+,RU::{Speed: 50.0000kph, Length: 0.2000km, Slope: 2.0000°, Corner-Radius: 4.0000m}
+,RU::{Speed: 50.0000kph, Length: 0.8000km, Slope: 3.0000°, Corner-Radius: 0.0000m}
+,RU::{Speed: 50.0000kph, Length: 1.0000km, Slope: 5.0000°, Corner-Radius: 0.0000m}
+,RU::{Speed: 50.0000kph, Length: 0.1000km, Slope: 5.0000°, Corner-Radius: 4.0000m}
+,RU::{Speed: 50.0000kph, Length: 1.0000km, Slope: 5.0000°, Corner-Radius: 0.0000m}
+,RU::{Speed: 50.0000kph, Length: 0.5000km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+]
++---------------------+
+| PROCESSED ITINERARY |
++---------------------+
+[0) PICKRU::{Speed: 6.2817kph, Length: 0.2000km, Slope: 3.0000°, Corner-Radius: 6.0000m}
+,1) PICKRU::{Speed: 50.0000kph, Length: 0.0647km, Slope: 2.5000°, Corner-Radius: 0.0000m}
+,2) PACERU::{Speed: 50.0000kph, Length: 0.7093km, Slope: 2.5000°, Corner-Radius: 0.0000m}
+,3) DROPRU::{Speed: 13.8096kph, Length: 0.0259km, Slope: 3.0000°, Corner-Radius: 6.0000m}
+,4) PACERU::{Speed: 13.8096kph, Length: 0.2000km, Slope: 3.0000°, Corner-Radius: 6.0000m}
+,5) PICKRU::{Speed: 50.0000kph, Length: 0.0612km, Slope: 2.5000°, Corner-Radius: 0.0000m}
+,6) PACERU::{Speed: 50.0000kph, Length: 0.7121km, Slope: 2.5000°, Corner-Radius: 0.0000m}
+,7) DROPRU::{Speed: 11.2755kph, Length: 0.0267km, Slope: 3.0000°, Corner-Radius: 4.0000m}
+,8) PACERU::{Speed: 11.2755kph, Length: 0.2000km, Slope: 3.0000°, Corner-Radius: 4.0000m}
+,9) PICKRU::{Speed: 50.0000kph, Length: 0.0625km, Slope: 3.0000°, Corner-Radius: 0.0000m}
+,10) PACERU::{Speed: 50.0000kph, Length: 1.5108km, Slope: 3.0000°, Corner-Radius: 0.0000m}
+,11) DROPRU::{Speed: 11.2755kph, Length: 0.0267km, Slope: 2.0000°, Corner-Radius: 4.0000m}
+,12) PACERU::{Speed: 11.2755kph, Length: 0.2000km, Slope: 2.0000°, Corner-Radius: 4.0000m}
+,13) PICKRU::{Speed: 50.0000kph, Length: 0.8000km, Slope: 3.0000°, Corner-Radius: 0.0000m}
+,14) PACERU::{Speed: 50.0000kph, Length: 0.0625km, Slope: 5.0000°, Corner-Radius: 0.0000m}
+,15) PACERU::{Speed: 50.0000kph, Length: 0.9108km, Slope: 5.0000°, Corner-Radius: 0.0000m}
+,16) DROPRU::{Speed: 11.2755kph, Length: 0.0267km, Slope: 5.0000°, Corner-Radius: 4.0000m}
+,17) PACERU::{Speed: 11.2755kph, Length: 0.1000km, Slope: 5.0000°, Corner-Radius: 4.0000m}
+,18) PICKRU::{Speed: 50.0000kph, Length: 1.0000km, Slope: 5.0000°, Corner-Radius: 0.0000m}
+,19) PACERU::{Speed: 50.0000kph, Length: 0.0625km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,20) PACERU::{Speed: 50.0000kph, Length: 0.4094km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,21) DROPRU::{Speed: 0.0000kph, Length: 0.0281km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,22) PICKRU::{Speed: 50.0000kph, Length: 0.0647km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,23) PACERU::{Speed: 50.0000kph, Length: 0.2072km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,24) DROPRU::{Speed: 0.0000kph, Length: 0.0281km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,25) PICKRU::{Speed: 50.0000kph, Length: 0.0647km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,26) PACERU::{Speed: 50.0000kph, Length: 0.9353km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,27) PICKRU::{Speed: 70.0000kph, Length: 0.0633km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,28) PACERU::{Speed: 70.0000kph, Length: 4.9098km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,29) DROPRU::{Speed: 50.0000kph, Length: 0.0270km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,30) PACERU::{Speed: 50.0000kph, Length: 1.9719km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,31) DROPRU::{Speed: 0.0000kph, Length: 0.0281km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,32) PICKRU::{Speed: 30.0000kph, Length: 0.0225km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,33) PACERU::{Speed: 30.0000kph, Length: 0.4775km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,34) PICKRU::{Speed: 50.0000kph, Length: 0.0422km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,35) PACERU::{Speed: 50.0000kph, Length: 1.9578km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,36) PICKRU::{Speed: 70.0000kph, Length: 0.0633km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,37) PACERU::{Speed: 70.0000kph, Length: 4.9367km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,38) PICKRU::{Speed: 90.0000kph, Length: 0.0844km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,39) PACERU::{Speed: 90.0000kph, Length: 9.8527km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,40) DROPRU::{Speed: 50.0000kph, Length: 0.0629km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,41) PACERU::{Speed: 50.0000kph, Length: 1.0000km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,42) PICKRU::{Speed: 70.0000kph, Length: 0.0633km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,43) PACERU::{Speed: 70.0000kph, Length: 1.8918km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,44) DROPRU::{Speed: 30.0000kph, Length: 0.0449km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,45) PACERU::{Speed: 30.0000kph, Length: 0.5000km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,46) PICKRU::{Speed: 50.0000kph, Length: 0.0422km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,47) PACERU::{Speed: 50.0000kph, Length: 1.9578km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,48) PICKRU::{Speed: 70.0000kph, Length: 0.0633km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,49) PACERU::{Speed: 70.0000kph, Length: 4.9367km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,50) PICKRU::{Speed: 90.0000kph, Length: 0.0844km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,51) PACERU::{Speed: 90.0000kph, Length: 9.8527km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,52) DROPRU::{Speed: 50.0000kph, Length: 0.0629km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,53) PACERU::{Speed: 50.0000kph, Length: 1.0000km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,54) PICKRU::{Speed: 70.0000kph, Length: 0.0633km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,55) PACERU::{Speed: 70.0000kph, Length: 1.8817km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,56) DROPRU::{Speed: 0.0000kph, Length: 0.0551km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,57) PICKRU::{Speed: 50.0000kph, Length: 0.0647km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,58) PACERU::{Speed: 50.0000kph, Length: 1.4353km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,59) PICKRU::{Speed: 60.0000kph, Length: 0.0290km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,60) PACERU::{Speed: 60.0000kph, Length: 0.9306km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,61) DROPRU::{Speed: 0.0000kph, Length: 0.0405km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,62) PICKRU::{Speed: 50.0000kph, Length: 0.0647km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,63) PACERU::{Speed: 50.0000kph, Length: 0.4353km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,64) PICKRU::{Speed: 70.0000kph, Length: 0.0633km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,65) PACERU::{Speed: 70.0000kph, Length: 4.8838km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,66) DROPRU::{Speed: 13.8096kph, Length: 0.0529km, Slope: 3.0000°, Corner-Radius: 6.0000m}
+,67) PACERU::{Speed: 13.8096kph, Length: 0.2000km, Slope: 3.0000°, Corner-Radius: 6.0000m}
+,68) PICKRU::{Speed: 50.0000kph, Length: 0.0612km, Slope: 2.5000°, Corner-Radius: 0.0000m}
+,69) PACERU::{Speed: 50.0000kph, Length: 0.7128km, Slope: 2.5000°, Corner-Radius: 0.0000m}
+,70) DROPRU::{Speed: 13.8096kph, Length: 0.0259km, Slope: 3.0000°, Corner-Radius: 6.0000m}
+,71) PACERU::{Speed: 13.8096kph, Length: 0.2000km, Slope: 3.0000°, Corner-Radius: 6.0000m}
+,72) PICKRU::{Speed: 50.0000kph, Length: 0.0612km, Slope: 2.5000°, Corner-Radius: 0.0000m}
+,73) PACERU::{Speed: 50.0000kph, Length: 0.7121km, Slope: 2.5000°, Corner-Radius: 0.0000m}
+,74) DROPRU::{Speed: 11.2755kph, Length: 0.0267km, Slope: 3.0000°, Corner-Radius: 4.0000m}
+,75) PACERU::{Speed: 11.2755kph, Length: 0.2000km, Slope: 3.0000°, Corner-Radius: 4.0000m}
+,76) PICKRU::{Speed: 50.0000kph, Length: 0.0625km, Slope: 3.0000°, Corner-Radius: 0.0000m}
+,77) PACERU::{Speed: 50.0000kph, Length: 1.5108km, Slope: 3.0000°, Corner-Radius: 0.0000m}
+,78) DROPRU::{Speed: 11.2755kph, Length: 0.0267km, Slope: 2.0000°, Corner-Radius: 4.0000m}
+,79) PACERU::{Speed: 11.2755kph, Length: 0.2000km, Slope: 2.0000°, Corner-Radius: 4.0000m}
+,80) PICKRU::{Speed: 50.0000kph, Length: 0.8000km, Slope: 3.0000°, Corner-Radius: 0.0000m}
+,81) PACERU::{Speed: 50.0000kph, Length: 0.0625km, Slope: 5.0000°, Corner-Radius: 0.0000m}
+,82) PACERU::{Speed: 50.0000kph, Length: 0.9108km, Slope: 5.0000°, Corner-Radius: 0.0000m}
+,83) DROPRU::{Speed: 11.2755kph, Length: 0.0267km, Slope: 5.0000°, Corner-Radius: 4.0000m}
+,84) PACERU::{Speed: 11.2755kph, Length: 0.1000km, Slope: 5.0000°, Corner-Radius: 4.0000m}
+,85) PICKRU::{Speed: 50.0000kph, Length: 0.0625km, Slope: 5.0000°, Corner-Radius: 0.0000m}
+,86) PACERU::{Speed: 50.0000kph, Length: 0.9375km, Slope: 5.0000°, Corner-Radius: 0.0000m}
+,87) PACERU::{Speed: 50.0000kph, Length: 0.5000km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+]
++----------------+
+| GENETIC SEARCH |
++----------------+
+> {[36mPICK[0m [33m6.2817kph[0m [33m0.2000km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m30.0000Kg[0m [32m5.9999KWh[0m} || [35mUSD 0.00001514 (1.0000USD)[0m
+> {[36mPICK[0m [33m50.0000kph[0m [33m0.0647km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m30.0000Kg[0m [32m5.8515KWh[0m} || [35mUSD 0.01929509 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m0.7093km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m30.0000Kg[0m [32m5.5964KWh[0m} || [35mUSD 0.03316208 (1.0000USD)[0m
+> {[36mDROP[0m [33m13.8096kph[0m [33m0.0259km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m30.0000Kg[0m [32m5.6530KWh[0m}
+> {[36mPACE[0m [33m13.8096kph[0m [33m0.2000km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m30.0000Kg[0m [32m5.5905KWh[0m} || [35mUSD 0.00813110 (1.0000USD)[0m
+> {[36mPICK[0m [33m50.0000kph[0m [33m0.0612km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m30.0000Kg[0m [32m5.4502KWh[0m} || [35mUSD 0.01823124 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m0.7121km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m30.0000Kg[0m [32m5.1942KWh[0m} || [35mUSD 0.03329099 (1.0000USD)[0m
+> {[36mDROP[0m [33m11.2755kph[0m [33m0.0267km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m30.0000Kg[0m [32m5.2522KWh[0m}
+> {[36mPACE[0m [33m11.2755kph[0m [33m0.2000km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m30.0000Kg[0m [32m5.1828KWh[0m} || [35mUSD 0.00902497 (1.0000USD)[0m
+> {[36mPICK[0m [33m50.0000kph[0m [33m0.0625km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m30.0000Kg[0m [32m5.0326KWh[0m} || [35mUSD 0.01953051 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m1.5108km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m30.0000Kg[0m [32m4.4311KWh[0m} || [35mUSD 0.07818462 (1.0000USD)[0m
+> {[36mDROP[0m [33m11.2755kph[0m [33m0.0267km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m30.0000Kg[0m [32m4.4935KWh[0m}
+> {[36mPACE[0m [33m11.2755kph[0m [33m0.2000km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m30.0000Kg[0m [32m4.4342KWh[0m} || [35mUSD 0.00770684 (1.0000USD)[0m
+> {[36mPICK[0m [33m50.0000kph[0m [33m0.8000km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m30.0000Kg[0m [32m4.2840KWh[0m} || [35mUSD 0.01953051 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m0.0625km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m30.0000Kg[0m [32m4.2492KWh[0m} || [35mUSD 0.00451751 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m0.9108km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m30.0000Kg[0m [32m3.7427KWh[0m} || [35mUSD 0.06584253 (1.0000USD)[0m
+> {[36mDROP[0m [33m11.2755kph[0m [33m0.0267km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m30.0000Kg[0m [32m3.7937KWh[0m}
+> {[36mPACE[0m [33m11.2755kph[0m [33m0.1000km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m30.0000Kg[0m [32m3.7455KWh[0m} || [35mUSD 0.00626280 (1.0000USD)[0m
+> {[36mPICK[0m [33m50.0000kph[0m [33m1.0000km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m30.0000Kg[0m [32m3.5701KWh[0m} || [35mUSD 0.02279852 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m0.0625km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m30.0000Kg[0m [32m3.5589KWh[0m} || [35mUSD 0.00146353 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m0.4094km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m30.0000Kg[0m [32m3.4851KWh[0m} || [35mUSD 0.00958804 (1.0000USD)[0m
+> {[36mDROP[0m [33m0.0000kph[0m [33m0.0281km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m30.0000Kg[0m [32m3.5367KWh[0m}
+> {[36mPICK[0m [33m50.0000kph[0m [33m0.0647km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m30.0000Kg[0m [32m3.4202KWh[0m} || [35mUSD 0.01514172 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m0.2072km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m30.0000Kg[0m [32m3.3829KWh[0m} || [35mUSD 0.00485252 (1.0000USD)[0m
+> {[36mDROP[0m [33m0.0000kph[0m [33m0.0281km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m30.0000Kg[0m [32m3.4344KWh[0m}
+> {[36mPICK[0m [33m50.0000kph[0m [33m0.0647km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m30.0000Kg[0m [32m3.3180KWh[0m} || [35mUSD 0.01514172 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m0.9353km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m30.0000Kg[0m [32m3.1495KWh[0m} || [35mUSD 0.02190360 (1.0000USD)[0m
+> {[36mPICK[0m [33m70.0000kph[0m [33m0.0633km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m30.0000Kg[0m [32m3.0236KWh[0m} || [35mUSD 0.01635773 (1.0000USD)[0m
+> {[36mPACE[0m [33m70.0000kph[0m [33m4.9098km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m30.0000Kg[0m [32m2.0909KWh[0m} || [35mUSD 0.12125589 (1.0000USD)[0m
+> {[36mDROP[0m [33m50.0000kph[0m [33m0.0270km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m30.0000Kg[0m [32m2.1601KWh[0m}
+> {[36mPACE[0m [33m50.0000kph[0m [33m1.9719km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m30.0000Kg[0m [32m1.8049KWh[0m} || [35mUSD 0.04617990 (1.0000USD)[0m
+> {[36mDROP[0m [33m0.0000kph[0m [33m0.0281km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m30.0000Kg[0m [32m1.8564KWh[0m}
+> {[36mPICK[0m [33m30.0000kph[0m [33m0.0225km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m30.0000Kg[0m [32m1.8195KWh[0m} || [35mUSD 0.00480765 (1.0000USD)[0m
+> {[36mPACE[0m [33m30.0000kph[0m [33m0.4775km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m30.0000Kg[0m [32m1.7424KWh[0m} || [35mUSD 0.01001562 (1.0000USD)[0m
+> {[36mPICK[0m [33m50.0000kph[0m [33m0.0422km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m30.0000Kg[0m [32m1.6663KWh[0m} || [35mUSD 0.00989157 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m1.9578km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m30.0000Kg[0m [32m1.3136KWh[0m} || [35mUSD 0.04585063 (1.0000USD)[0m
+> {[36mPICK[0m [33m70.0000kph[0m [33m0.0633km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m30.0000Kg[0m [32m1.1878KWh[0m} || [35mUSD 0.01635773 (1.0000USD)[0m
+> {[36mPACE[0m [33m70.0000kph[0m [33m4.9367km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m30.0000Kg[0m [32m0.2499KWh[0m} || [35mUSD 0.12192190 (1.0000USD)[0m
+> {[36mPICK[0m [33m90.0000kph[0m [33m0.0844km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m30.0000Kg[0m [32m0.0689KWh[0m} || [35mUSD 0.02353662 (1.0000USD)[0m
+> {[36mPACE[0m [33m90.0000kph[0m [33m9.8527km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m29.0121Kg[0m [32m0.0689KWh[0m} || [35mUSD 1.66829344 (1.0000USD)[0m
+> {[36mDROP[0m [33m50.0000kph[0m [33m0.0629km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m29.0121Kg[0m [32m0.2246KWh[0m}
+> {[36mPACE[0m [33m50.0000kph[0m [33m1.0000km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m29.0121Kg[0m [32m0.0445KWh[0m} || [35mUSD 0.02341888 (1.0000USD)[0m
+> {[36mPICK[0m [33m70.0000kph[0m [33m0.0633km[0m} <-> {[37mPUM:[0m [31m 68% IC[0m [32m 32% E[0m} -> {[31m28.9882Kg[0m [32m0.0072KWh[0m} || [35mUSD 0.04512668 (1.0000USD)[0m
+> {[36mPACE[0m [33m70.0000kph[0m [33m1.8918km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m28.8348Kg[0m [32m0.0072KWh[0m} || [35mUSD 0.25914415 (1.0000USD)[0m
+> {[36mDROP[0m [33m30.0000kph[0m [33m0.0449km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m28.8348Kg[0m [32m0.1221KWh[0m}
+> {[36mPACE[0m [33m30.0000kph[0m [33m0.5000km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m28.8348Kg[0m [32m0.0414KWh[0m} || [35mUSD 0.01048773 (1.0000USD)[0m
+> {[36mPICK[0m [33m50.0000kph[0m [33m0.0422km[0m} <-> {[37mPUM:[0m [31m 52% IC[0m [32m 48% E[0m} -> {[31m28.8225Kg[0m [32m0.0013KWh[0m} || [35mUSD 0.02602887 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m1.9578km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m28.6930Kg[0m [32m0.0013KWh[0m} || [35mUSD 0.21856882 (1.0000USD)[0m
+> {[36mPICK[0m [33m70.0000kph[0m [33m0.0633km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m28.6586Kg[0m [32m0.0013KWh[0m} || [35mUSD 0.05820019 (1.0000USD)[0m
+> {[36mPACE[0m [33m70.0000kph[0m [33m4.9367km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m28.2581Kg[0m [32m0.0013KWh[0m} || [35mUSD 0.67625121 (1.0000USD)[0m
+> {[36mPICK[0m [33m90.0000kph[0m [33m0.0844km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m28.0686Kg[0m [32m0.0013KWh[0m} || [35mUSD 0.31995039 (1.0000USD)[0m
+> {[36mPACE[0m [33m90.0000kph[0m [33m9.8527km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m27.0807Kg[0m [32m0.0013KWh[0m} || [35mUSD 1.66829344 (1.0000USD)[0m
+> {[36mDROP[0m [33m50.0000kph[0m [33m0.0629km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m27.0807Kg[0m [32m0.1570KWh[0m}
+> {[36mPACE[0m [33m50.0000kph[0m [33m1.0000km[0m} <-> {[37mPUM:[0m [31m 22% IC[0m [32m 78% E[0m} -> {[31m27.0456Kg[0m [32m0.0001KWh[0m} || [35mUSD 0.07968839 (1.0000USD)[0m
+> {[36mPICK[0m [33m70.0000kph[0m [33m0.0633km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m27.0112Kg[0m [32m0.0001KWh[0m} || [35mUSD 0.05820019 (1.0000USD)[0m
+> {[36mPACE[0m [33m70.0000kph[0m [33m1.8817km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m26.8585Kg[0m [32m0.0001KWh[0m} || [35mUSD 0.25775886 (1.0000USD)[0m
+> {[36mDROP[0m [33m0.0000kph[0m [33m0.0551km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m26.8585Kg[0m [32m0.1378KWh[0m}
+> {[36mPICK[0m [33m50.0000kph[0m [33m0.0647km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m26.8585Kg[0m [32m0.0213KWh[0m} || [35mUSD 0.01514172 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m1.4353km[0m} <-> {[37mPUM:[0m [31m 96% IC[0m [32m  4% E[0m} -> {[31m26.7653Kg[0m [32m0.0011KWh[0m} || [35mUSD 0.16009652 (1.0000USD)[0m
+> {[36mPICK[0m [33m60.0000kph[0m [33m0.0290km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m26.7496Kg[0m [32m0.0011KWh[0m} || [35mUSD 0.02643558 (1.0000USD)[0m
+> {[36mPACE[0m [33m60.0000kph[0m [33m0.9306km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m26.6818Kg[0m [32m0.0011KWh[0m} || [35mUSD 0.11450225 (1.0000USD)[0m
+> {[36mDROP[0m [33m0.0000kph[0m [33m0.0405km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m26.6818Kg[0m [32m0.1019KWh[0m}
+> {[36mPICK[0m [33m50.0000kph[0m [33m0.0647km[0m} <-> {[37mPUM:[0m [31m 22% IC[0m [32m 78% E[0m} -> {[31m26.6676Kg[0m [32m0.0016KWh[0m} || [35mUSD 0.03702014 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m0.4353km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m26.6388Kg[0m [32m0.0016KWh[0m} || [35mUSD 0.04859531 (1.0000USD)[0m
+> {[36mPICK[0m [33m70.0000kph[0m [33m0.0633km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m26.6044Kg[0m [32m0.0016KWh[0m} || [35mUSD 0.05820019 (1.0000USD)[0m
+> {[36mPACE[0m [33m70.0000kph[0m [33m4.8838km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m26.2082Kg[0m [32m0.0016KWh[0m} || [35mUSD 0.66900265 (1.0000USD)[0m
+> {[36mDROP[0m [33m13.8096kph[0m [33m0.0529km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m26.2082Kg[0m [32m0.1171KWh[0m}
+> {[36mPACE[0m [33m13.8096kph[0m [33m0.2000km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m26.2082Kg[0m [32m0.0546KWh[0m} || [35mUSD 0.00813110 (1.0000USD)[0m
+> {[36mPICK[0m [33m50.0000kph[0m [33m0.0612km[0m} <-> {[37mPUM:[0m [31m 64% IC[0m [32m 36% E[0m} -> {[31m26.1784Kg[0m [32m0.0009KWh[0m} || [35mUSD 0.05729322 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m0.7128km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m26.0963Kg[0m [32m0.0009KWh[0m} || [35mUSD 0.13866693 (1.0000USD)[0m
+> {[36mDROP[0m [33m13.8096kph[0m [33m0.0259km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m26.0963Kg[0m [32m0.0576KWh[0m}
+> {[36mPACE[0m [33m13.8096kph[0m [33m0.2000km[0m} <-> {[37mPUM:[0m [31m 64% IC[0m [32m 36% E[0m} -> {[31m26.0588Kg[0m [32m0.0010KWh[0m} || [35mUSD 0.07061520 (1.0000USD)[0m
+> {[36mPICK[0m [33m50.0000kph[0m [33m0.0612km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m25.9768Kg[0m [32m0.0010KWh[0m} || [35mUSD 0.13846373 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m0.7121km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m25.8948Kg[0m [32m0.0010KWh[0m} || [35mUSD 0.13852798 (1.0000USD)[0m
+> {[36mDROP[0m [33m11.2755kph[0m [33m0.0267km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m25.8948Kg[0m [32m0.0591KWh[0m}
+> {[36mPACE[0m [33m11.2755kph[0m [33m0.2000km[0m} <-> {[37mPUM:[0m [31m 64% IC[0m [32m 36% E[0m} -> {[31m25.8584Kg[0m [32m0.0019KWh[0m} || [35mUSD 0.06886546 (1.0000USD)[0m
+> {[36mPICK[0m [33m50.0000kph[0m [33m0.0625km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m25.7647Kg[0m [32m0.0019KWh[0m} || [35mUSD 0.15825470 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m1.5108km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m25.5643Kg[0m [32m0.0019KWh[0m} || [35mUSD 0.33848026 (1.0000USD)[0m
+> {[36mDROP[0m [33m11.2755kph[0m [33m0.0267km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m25.5643Kg[0m [32m0.0643KWh[0m}
+> {[36mPACE[0m [33m11.2755kph[0m [33m0.2000km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m25.5643Kg[0m [32m0.0050KWh[0m} || [35mUSD 0.00770684 (1.0000USD)[0m
+> {[36mPICK[0m [33m50.0000kph[0m [33m0.8000km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m25.4706Kg[0m [32m0.0050KWh[0m} || [35mUSD 0.15825470 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m0.0625km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m25.4587Kg[0m [32m0.0050KWh[0m} || [35mUSD 0.02006307 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m0.9108km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m25.2855Kg[0m [32m0.0050KWh[0m} || [35mUSD 0.29241821 (1.0000USD)[0m
+> {[36mDROP[0m [33m11.2755kph[0m [33m0.0267km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m25.2855Kg[0m [32m0.0559KWh[0m}
+> {[36mPACE[0m [33m11.2755kph[0m [33m0.1000km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m25.2855Kg[0m [32m0.0078KWh[0m} || [35mUSD 0.00626280 (1.0000USD)[0m
+> {[36mPICK[0m [33m50.0000kph[0m [33m0.0625km[0m} <-> {[37mPUM:[0m [31m 98% IC[0m [32m  2% E[0m} -> {[31m25.1298Kg[0m [32m0.0004KWh[0m} || [35mUSD 0.26400544 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m0.9375km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m24.9515Kg[0m [32m0.0004KWh[0m} || [35mUSD 0.30097796 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m0.5000km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m24.9185Kg[0m [32m0.0004KWh[0m} || [35mUSD 0.05581861 (1.0000USD)[0m
+
+USD 9.55100267 (1.0000USD)
+> {[36mPICK[0m [33m6.2817kph[0m [33m0.2000km[0m} <-> {[37mPUM:[0m [31m  4% IC[0m [32m 96% E[0m} -> {[31m30.0000Kg[0m [32m5.9999KWh[0m} || [35mUSD 0.00002474 (1.0000USD)[0m
+> {[36mPICK[0m [33m50.0000kph[0m [33m0.0647km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m30.0000Kg[0m [32m5.8515KWh[0m} || [35mUSD 0.01929509 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m0.7093km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m30.0000Kg[0m [32m5.5964KWh[0m} || [35mUSD 0.03316208 (1.0000USD)[0m
+> {[36mDROP[0m [33m13.8096kph[0m [33m0.0259km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m30.0000Kg[0m [32m5.6530KWh[0m}
+> {[36mPACE[0m [33m13.8096kph[0m [33m0.2000km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m30.0000Kg[0m [32m5.5905KWh[0m} || [35mUSD 0.00813110 (1.0000USD)[0m
+> {[36mPICK[0m [33m50.0000kph[0m [33m0.0612km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m30.0000Kg[0m [32m5.4502KWh[0m} || [35mUSD 0.01823124 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m0.7121km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m30.0000Kg[0m [32m5.1942KWh[0m} || [35mUSD 0.03329099 (1.0000USD)[0m
+> {[36mDROP[0m [33m11.2755kph[0m [33m0.0267km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m30.0000Kg[0m [32m5.2522KWh[0m}
+> {[36mPACE[0m [33m11.2755kph[0m [33m0.2000km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m30.0000Kg[0m [32m5.1828KWh[0m} || [35mUSD 0.00902497 (1.0000USD)[0m
+> {[36mPICK[0m [33m50.0000kph[0m [33m0.0625km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m30.0000Kg[0m [32m5.0326KWh[0m} || [35mUSD 0.01953051 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m1.5108km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m30.0000Kg[0m [32m4.4311KWh[0m} || [35mUSD 0.07818462 (1.0000USD)[0m
+> {[36mDROP[0m [33m11.2755kph[0m [33m0.0267km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m30.0000Kg[0m [32m4.4935KWh[0m}
+> {[36mPACE[0m [33m11.2755kph[0m [33m0.2000km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m30.0000Kg[0m [32m4.4342KWh[0m} || [35mUSD 0.00770684 (1.0000USD)[0m
+> {[36mPICK[0m [33m50.0000kph[0m [33m0.8000km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m30.0000Kg[0m [32m4.2840KWh[0m} || [35mUSD 0.01953051 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m0.0625km[0m} <-> {[37mPUM:[0m [31m 86% IC[0m [32m 14% E[0m} -> {[31m29.9904Kg[0m [32m4.2751KWh[0m} || [35mUSD 0.01739672 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m0.9108km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m29.9904Kg[0m [32m3.7687KWh[0m} || [35mUSD 0.06584253 (1.0000USD)[0m
+> {[36mDROP[0m [33m11.2755kph[0m [33m0.0267km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m29.9904Kg[0m [32m3.8196KWh[0m}
+> {[36mPACE[0m [33m11.2755kph[0m [33m0.1000km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m29.9904Kg[0m [32m3.7714KWh[0m} || [35mUSD 0.00626280 (1.0000USD)[0m
+> {[36mPICK[0m [33m50.0000kph[0m [33m1.0000km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m29.9904Kg[0m [32m3.5960KWh[0m} || [35mUSD 0.02279852 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m0.0625km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m29.9904Kg[0m [32m3.5848KWh[0m} || [35mUSD 0.00146353 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m0.4094km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m29.9904Kg[0m [32m3.5110KWh[0m} || [35mUSD 0.00958804 (1.0000USD)[0m
+> {[36mDROP[0m [33m0.0000kph[0m [33m0.0281km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m29.9904Kg[0m [32m3.5626KWh[0m}
+> {[36mPICK[0m [33m50.0000kph[0m [33m0.0647km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m29.9904Kg[0m [32m3.4461KWh[0m} || [35mUSD 0.01514172 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m0.2072km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m29.9904Kg[0m [32m3.4088KWh[0m} || [35mUSD 0.00485252 (1.0000USD)[0m
+> {[36mDROP[0m [33m0.0000kph[0m [33m0.0281km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m29.9904Kg[0m [32m3.4603KWh[0m}
+> {[36mPICK[0m [33m50.0000kph[0m [33m0.0647km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m29.9904Kg[0m [32m3.3439KWh[0m} || [35mUSD 0.01514172 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m0.9353km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m29.9904Kg[0m [32m3.1754KWh[0m} || [35mUSD 0.02190360 (1.0000USD)[0m
+> {[36mPICK[0m [33m70.0000kph[0m [33m0.0633km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m29.9904Kg[0m [32m3.0496KWh[0m} || [35mUSD 0.01635773 (1.0000USD)[0m
+> {[36mPACE[0m [33m70.0000kph[0m [33m4.9098km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m29.9904Kg[0m [32m2.1168KWh[0m} || [35mUSD 0.12125589 (1.0000USD)[0m
+> {[36mDROP[0m [33m50.0000kph[0m [33m0.0270km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m29.9904Kg[0m [32m2.1860KWh[0m}
+> {[36mPACE[0m [33m50.0000kph[0m [33m1.9719km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m29.9904Kg[0m [32m1.8308KWh[0m} || [35mUSD 0.04617990 (1.0000USD)[0m
+> {[36mDROP[0m [33m0.0000kph[0m [33m0.0281km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m29.9904Kg[0m [32m1.8824KWh[0m}
+> {[36mPICK[0m [33m30.0000kph[0m [33m0.0225km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m29.9904Kg[0m [32m1.8454KWh[0m} || [35mUSD 0.00480765 (1.0000USD)[0m
+> {[36mPACE[0m [33m30.0000kph[0m [33m0.4775km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m29.9904Kg[0m [32m1.7576KWh[0m} || [35mUSD 0.01140890 (1.0000USD)[0m
+> {[36mPICK[0m [33m50.0000kph[0m [33m0.0422km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m29.9904Kg[0m [32m1.6815KWh[0m} || [35mUSD 0.00989157 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m1.9578km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m29.9904Kg[0m [32m1.3288KWh[0m} || [35mUSD 0.04585063 (1.0000USD)[0m
+> {[36mPICK[0m [33m70.0000kph[0m [33m0.0633km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m29.9904Kg[0m [32m1.2030KWh[0m} || [35mUSD 0.01635773 (1.0000USD)[0m
+> {[36mPACE[0m [33m70.0000kph[0m [33m4.9367km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m29.9904Kg[0m [32m0.2651KWh[0m} || [35mUSD 0.12192190 (1.0000USD)[0m
+> {[36mPICK[0m [33m90.0000kph[0m [33m0.0844km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m29.9904Kg[0m [32m0.0841KWh[0m} || [35mUSD 0.02353662 (1.0000USD)[0m
+> {[36mPACE[0m [33m90.0000kph[0m [33m9.8527km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m29.0025Kg[0m [32m0.0841KWh[0m} || [35mUSD 1.66829344 (1.0000USD)[0m
+> {[36mDROP[0m [33m50.0000kph[0m [33m0.0629km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m29.0025Kg[0m [32m0.2398KWh[0m}
+> {[36mPACE[0m [33m50.0000kph[0m [33m1.0000km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m29.0025Kg[0m [32m0.0597KWh[0m} || [35mUSD 0.02341888 (1.0000USD)[0m
+> {[36mPICK[0m [33m70.0000kph[0m [33m0.0633km[0m} <-> {[37mPUM:[0m [31m 52% IC[0m [32m 48% E[0m} -> {[31m28.9845Kg[0m [32m0.0004KWh[0m} || [35mUSD 0.03800549 (1.0000USD)[0m
+> {[36mPACE[0m [33m70.0000kph[0m [33m1.8918km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m28.8311Kg[0m [32m0.0004KWh[0m} || [35mUSD 0.25914415 (1.0000USD)[0m
+> {[36mDROP[0m [33m30.0000kph[0m [33m0.0449km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m28.8311Kg[0m [32m0.1154KWh[0m}
+> {[36mPACE[0m [33m30.0000kph[0m [33m0.5000km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m28.8311Kg[0m [32m0.0347KWh[0m} || [35mUSD 0.01048773 (1.0000USD)[0m
+> {[36mPICK[0m [33m50.0000kph[0m [33m0.0422km[0m} <-> {[37mPUM:[0m [31m 70% IC[0m [32m 30% E[0m} -> {[31m28.8149Kg[0m [32m0.0086KWh[0m} || [35mUSD 0.03061995 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m1.9578km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m28.6855Kg[0m [32m0.0086KWh[0m} || [35mUSD 0.21856882 (1.0000USD)[0m
+> {[36mPICK[0m [33m70.0000kph[0m [33m0.0633km[0m} <-> {[37mPUM:[0m [31m 98% IC[0m [32m  2% E[0m} -> {[31m28.6515Kg[0m [32m0.0036KWh[0m} || [35mUSD 0.05815121 (1.0000USD)[0m
+> {[36mPACE[0m [33m70.0000kph[0m [33m4.9367km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m28.2510Kg[0m [32m0.0036KWh[0m} || [35mUSD 0.67625121 (1.0000USD)[0m
+> {[36mPICK[0m [33m90.0000kph[0m [33m0.0844km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m28.0615Kg[0m [32m0.0036KWh[0m} || [35mUSD 0.31995039 (1.0000USD)[0m
+> {[36mPACE[0m [33m90.0000kph[0m [33m9.8527km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m27.0736Kg[0m [32m0.0036KWh[0m} || [35mUSD 1.66829344 (1.0000USD)[0m
+> {[36mDROP[0m [33m50.0000kph[0m [33m0.0629km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m27.0736Kg[0m [32m0.1593KWh[0m}
+> {[36mPACE[0m [33m50.0000kph[0m [33m1.0000km[0m} <-> {[37mPUM:[0m [31m 84% IC[0m [32m 16% E[0m} -> {[31m27.0117Kg[0m [32m0.1088KWh[0m} || [35mUSD 0.11118012 (1.0000USD)[0m
+> {[36mPICK[0m [33m70.0000kph[0m [33m0.0633km[0m} <-> {[37mPUM:[0m [31m 22% IC[0m [32m 78% E[0m} -> {[31m27.0005Kg[0m [32m0.0050KWh[0m} || [35mUSD 0.03240371 (1.0000USD)[0m
+> {[36mPACE[0m [33m70.0000kph[0m [33m1.8817km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m26.8478Kg[0m [32m0.0050KWh[0m} || [35mUSD 0.25775886 (1.0000USD)[0m
+> {[36mDROP[0m [33m0.0000kph[0m [33m0.0551km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m26.8478Kg[0m [32m0.1427KWh[0m}
+> {[36mPICK[0m [33m50.0000kph[0m [33m0.0647km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m26.8478Kg[0m [32m0.0250KWh[0m} || [35mUSD 0.01529503 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m1.4353km[0m} <-> {[37mPUM:[0m [31m 96% IC[0m [32m  4% E[0m} -> {[31m26.7546Kg[0m [32m0.0049KWh[0m} || [35mUSD 0.16009652 (1.0000USD)[0m
+> {[36mPICK[0m [33m60.0000kph[0m [33m0.0290km[0m} <-> {[37mPUM:[0m [31m 96% IC[0m [32m  4% E[0m} -> {[31m26.7394Kg[0m [32m0.0006KWh[0m} || [35mUSD 0.02622510 (1.0000USD)[0m
+> {[36mPACE[0m [33m60.0000kph[0m [33m0.9306km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m26.6716Kg[0m [32m0.0006KWh[0m} || [35mUSD 0.11450225 (1.0000USD)[0m
+> {[36mDROP[0m [33m0.0000kph[0m [33m0.0405km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m26.6716Kg[0m [32m0.1014KWh[0m}
+> {[36mPICK[0m [33m50.0000kph[0m [33m0.0647km[0m} <-> {[37mPUM:[0m [31m 22% IC[0m [32m 78% E[0m} -> {[31m26.6574Kg[0m [32m0.0011KWh[0m} || [35mUSD 0.03702014 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m0.4353km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m26.6286Kg[0m [32m0.0011KWh[0m} || [35mUSD 0.04859531 (1.0000USD)[0m
+> {[36mPICK[0m [33m70.0000kph[0m [33m0.0633km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m26.5941Kg[0m [32m0.0011KWh[0m} || [35mUSD 0.05820019 (1.0000USD)[0m
+> {[36mPACE[0m [33m70.0000kph[0m [33m4.8838km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m26.1980Kg[0m [32m0.0011KWh[0m} || [35mUSD 0.66900265 (1.0000USD)[0m
+> {[36mDROP[0m [33m13.8096kph[0m [33m0.0529km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m26.1980Kg[0m [32m0.1166KWh[0m}
+> {[36mPACE[0m [33m13.8096kph[0m [33m0.2000km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m26.1554Kg[0m [32m0.1166KWh[0m} || [35mUSD 0.07193272 (1.0000USD)[0m
+> {[36mPICK[0m [33m50.0000kph[0m [33m0.0612km[0m} <-> {[37mPUM:[0m [31m 22% IC[0m [32m 78% E[0m} -> {[31m26.1409Kg[0m [32m0.0004KWh[0m} || [35mUSD 0.03959554 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m0.7128km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m26.0588Kg[0m [32m0.0004KWh[0m} || [35mUSD 0.13866693 (1.0000USD)[0m
+> {[36mDROP[0m [33m13.8096kph[0m [33m0.0259km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m26.0588Kg[0m [32m0.0571KWh[0m}
+> {[36mPACE[0m [33m13.8096kph[0m [33m0.2000km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m26.0162Kg[0m [32m0.0571KWh[0m} || [35mUSD 0.07193272 (1.0000USD)[0m
+> {[36mPICK[0m [33m50.0000kph[0m [33m0.0612km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m25.9342Kg[0m [32m0.0571KWh[0m} || [35mUSD 0.13846373 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m0.7121km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m25.8522Kg[0m [32m0.0571KWh[0m} || [35mUSD 0.13852798 (1.0000USD)[0m
+> {[36mDROP[0m [33m11.2755kph[0m [33m0.0267km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m25.8522Kg[0m [32m0.1151KWh[0m}
+> {[36mPACE[0m [33m11.2755kph[0m [33m0.2000km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m25.8112Kg[0m [32m0.1151KWh[0m} || [35mUSD 0.06923477 (1.0000USD)[0m
+> {[36mPICK[0m [33m50.0000kph[0m [33m0.0625km[0m} <-> {[37mPUM:[0m [31m 28% IC[0m [32m 72% E[0m} -> {[31m25.7931Kg[0m [32m0.0017KWh[0m} || [35mUSD 0.04516673 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m1.5108km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m25.5927Kg[0m [32m0.0017KWh[0m} || [35mUSD 0.33848026 (1.0000USD)[0m
+> {[36mDROP[0m [33m11.2755kph[0m [33m0.0267km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m25.5927Kg[0m [32m0.0640KWh[0m}
+> {[36mPACE[0m [33m11.2755kph[0m [33m0.2000km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m25.5544Kg[0m [32m0.0640KWh[0m} || [35mUSD 0.06461788 (1.0000USD)[0m
+> {[36mPICK[0m [33m50.0000kph[0m [33m0.8000km[0m} <-> {[37mPUM:[0m [31m 60% IC[0m [32m 40% E[0m} -> {[31m25.5256Kg[0m [32m0.0009KWh[0m} || [35mUSD 0.05698093 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m0.0625km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m25.5137Kg[0m [32m0.0009KWh[0m} || [35mUSD 0.02006307 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m0.9108km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m25.3405Kg[0m [32m0.0009KWh[0m} || [35mUSD 0.29241821 (1.0000USD)[0m
+> {[36mDROP[0m [33m11.2755kph[0m [33m0.0267km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m25.3405Kg[0m [32m0.0519KWh[0m}
+> {[36mPACE[0m [33m11.2755kph[0m [33m0.1000km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m25.3166Kg[0m [32m0.0519KWh[0m} || [35mUSD 0.04041928 (1.0000USD)[0m
+> {[36mPICK[0m [33m50.0000kph[0m [33m0.0625km[0m} <-> {[37mPUM:[0m [31m 78% IC[0m [32m 22% E[0m} -> {[31m25.2467Kg[0m [32m0.0014KWh[0m} || [35mUSD 0.12452921 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m0.9375km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m25.0685Kg[0m [32m0.0014KWh[0m} || [35mUSD 0.30097796 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m0.5000km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m25.0354Kg[0m [32m0.0014KWh[0m} || [35mUSD 0.05581861 (1.0000USD)[0m
+
+USD 9.35336405 (1.0000USD)
+> {[36mPICK[0m [33m6.2817kph[0m [33m0.2000km[0m} <-> {[37mPUM:[0m [31m 62% IC[0m [32m 38% E[0m} -> {[31m30.0000Kg[0m [32m5.9999KWh[0m} || [35mUSD 0.00006125 (1.0000USD)[0m
+> {[36mPICK[0m [33m50.0000kph[0m [33m0.0647km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m30.0000Kg[0m [32m5.8515KWh[0m} || [35mUSD 0.01929509 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m0.7093km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m30.0000Kg[0m [32m5.5964KWh[0m} || [35mUSD 0.03316208 (1.0000USD)[0m
+> {[36mDROP[0m [33m13.8096kph[0m [33m0.0259km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m30.0000Kg[0m [32m5.6531KWh[0m}
+> {[36mPACE[0m [33m13.8096kph[0m [33m0.2000km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m30.0000Kg[0m [32m5.5905KWh[0m} || [35mUSD 0.00813110 (1.0000USD)[0m
+> {[36mPICK[0m [33m50.0000kph[0m [33m0.0612km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m30.0000Kg[0m [32m5.4503KWh[0m} || [35mUSD 0.01823124 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m0.7121km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m30.0000Kg[0m [32m5.1942KWh[0m} || [35mUSD 0.03329099 (1.0000USD)[0m
+> {[36mDROP[0m [33m11.2755kph[0m [33m0.0267km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m30.0000Kg[0m [32m5.2523KWh[0m}
+> {[36mPACE[0m [33m11.2755kph[0m [33m0.2000km[0m} <-> {[37mPUM:[0m [31m 48% IC[0m [32m 52% E[0m} -> {[31m29.9674Kg[0m [32m5.1775KWh[0m} || [35mUSD 0.06471972 (1.0000USD)[0m
+> {[36mPICK[0m [33m50.0000kph[0m [33m0.0625km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m29.9674Kg[0m [32m5.0273KWh[0m} || [35mUSD 0.01953051 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m1.5108km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m29.9674Kg[0m [32m4.4258KWh[0m} || [35mUSD 0.07818462 (1.0000USD)[0m
+> {[36mDROP[0m [33m11.2755kph[0m [33m0.0267km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m29.9674Kg[0m [32m4.4882KWh[0m}
+> {[36mPACE[0m [33m11.2755kph[0m [33m0.2000km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m29.9674Kg[0m [32m4.4289KWh[0m} || [35mUSD 0.00770684 (1.0000USD)[0m
+> {[36mPICK[0m [33m50.0000kph[0m [33m0.8000km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m29.9674Kg[0m [32m4.2787KWh[0m} || [35mUSD 0.01953051 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m0.0625km[0m} <-> {[37mPUM:[0m [31m 10% IC[0m [32m 90% E[0m} -> {[31m29.9643Kg[0m [32m4.2420KWh[0m} || [35mUSD 0.01006654 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m0.9108km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m29.9643Kg[0m [32m3.7356KWh[0m} || [35mUSD 0.06584253 (1.0000USD)[0m
+> {[36mDROP[0m [33m11.2755kph[0m [33m0.0267km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m29.9643Kg[0m [32m3.7865KWh[0m}
+> {[36mPACE[0m [33m11.2755kph[0m [33m0.1000km[0m} <-> {[37mPUM:[0m [31m 10% IC[0m [32m 90% E[0m} -> {[31m29.9568Kg[0m [32m3.7211KWh[0m} || [35mUSD 0.02114284 (1.0000USD)[0m
+> {[36mPICK[0m [33m50.0000kph[0m [33m1.0000km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m29.9568Kg[0m [32m3.5457KWh[0m} || [35mUSD 0.02279852 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m0.0625km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m29.9568Kg[0m [32m3.5344KWh[0m} || [35mUSD 0.00146353 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m0.4094km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m29.9568Kg[0m [32m3.4607KWh[0m} || [35mUSD 0.00958804 (1.0000USD)[0m
+> {[36mDROP[0m [33m0.0000kph[0m [33m0.0281km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m29.9568Kg[0m [32m3.5123KWh[0m}
+> {[36mPICK[0m [33m50.0000kph[0m [33m0.0647km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m29.9568Kg[0m [32m3.3958KWh[0m} || [35mUSD 0.01514172 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m0.2072km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m29.9568Kg[0m [32m3.3585KWh[0m} || [35mUSD 0.00485252 (1.0000USD)[0m
+> {[36mDROP[0m [33m0.0000kph[0m [33m0.0281km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m29.9568Kg[0m [32m3.4100KWh[0m}
+> {[36mPICK[0m [33m50.0000kph[0m [33m0.0647km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m29.9568Kg[0m [32m3.2935KWh[0m} || [35mUSD 0.01514172 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m0.9353km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m29.9568Kg[0m [32m3.1251KWh[0m} || [35mUSD 0.02190360 (1.0000USD)[0m
+> {[36mPICK[0m [33m70.0000kph[0m [33m0.0633km[0m} <-> {[37mPUM:[0m [31m 64% IC[0m [32m 36% E[0m} -> {[31m29.9327Kg[0m [32m3.0843KWh[0m} || [35mUSD 0.04594901 (1.0000USD)[0m
+> {[36mPACE[0m [33m70.0000kph[0m [33m4.9098km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m29.9327Kg[0m [32m2.1516KWh[0m} || [35mUSD 0.12125589 (1.0000USD)[0m
+> {[36mDROP[0m [33m50.0000kph[0m [33m0.0270km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m29.9327Kg[0m [32m2.2208KWh[0m}
+> {[36mPACE[0m [33m50.0000kph[0m [33m1.9719km[0m} <-> {[37mPUM:[0m [31m 22% IC[0m [32m 78% E[0m} -> {[31m29.8635Kg[0m [32m1.9114KWh[0m} || [35mUSD 0.15713825 (1.0000USD)[0m
+> {[36mDROP[0m [33m0.0000kph[0m [33m0.0281km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m29.8635Kg[0m [32m1.9629KWh[0m}
+> {[36mPICK[0m [33m30.0000kph[0m [33m0.0225km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m29.8635Kg[0m [32m1.9260KWh[0m} || [35mUSD 0.00480765 (1.0000USD)[0m
+> {[36mPACE[0m [33m30.0000kph[0m [33m0.4775km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m29.8635Kg[0m [32m1.8382KWh[0m} || [35mUSD 0.01140890 (1.0000USD)[0m
+> {[36mPICK[0m [33m50.0000kph[0m [33m0.0422km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m29.8635Kg[0m [32m1.7621KWh[0m} || [35mUSD 0.00989157 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m1.9578km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m29.8635Kg[0m [32m1.4094KWh[0m} || [35mUSD 0.04585063 (1.0000USD)[0m
+> {[36mPICK[0m [33m70.0000kph[0m [33m0.0633km[0m} <-> {[37mPUM:[0m [31m 98% IC[0m [32m  2% E[0m} -> {[31m29.8294Kg[0m [32m1.4044KWh[0m} || [35mUSD 0.05815121 (1.0000USD)[0m
+> {[36mPACE[0m [33m70.0000kph[0m [33m4.9367km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m29.8294Kg[0m [32m0.4666KWh[0m} || [35mUSD 0.12192190 (1.0000USD)[0m
+> {[36mPICK[0m [33m90.0000kph[0m [33m0.0844km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m29.8294Kg[0m [32m0.2855KWh[0m} || [35mUSD 0.02353662 (1.0000USD)[0m
+> {[36mPACE[0m [33m90.0000kph[0m [33m9.8527km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m28.8415Kg[0m [32m0.2855KWh[0m} || [35mUSD 1.66829344 (1.0000USD)[0m
+> {[36mDROP[0m [33m50.0000kph[0m [33m0.0629km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m28.8415Kg[0m [32m0.4413KWh[0m}
+> {[36mPACE[0m [33m50.0000kph[0m [33m1.0000km[0m} <-> {[37mPUM:[0m [31m 98% IC[0m [32m  2% E[0m} -> {[31m28.7760Kg[0m [32m0.4341KWh[0m} || [35mUSD 0.11159090 (1.0000USD)[0m
+> {[36mPICK[0m [33m70.0000kph[0m [33m0.0633km[0m} <-> {[37mPUM:[0m [31m 70% IC[0m [32m 30% E[0m} -> {[31m28.7520Kg[0m [32m0.3984KWh[0m} || [35mUSD 0.04517120 (1.0000USD)[0m
+> {[36mPACE[0m [33m70.0000kph[0m [33m1.8918km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m28.5985Kg[0m [32m0.3984KWh[0m} || [35mUSD 0.25914415 (1.0000USD)[0m
+> {[36mDROP[0m [33m30.0000kph[0m [33m0.0449km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m28.5985Kg[0m [32m0.5133KWh[0m}
+> {[36mPACE[0m [33m30.0000kph[0m [33m0.5000km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m28.5985Kg[0m [32m0.4326KWh[0m} || [35mUSD 0.01048773 (1.0000USD)[0m
+> {[36mPICK[0m [33m50.0000kph[0m [33m0.0422km[0m} <-> {[37mPUM:[0m [31m 70% IC[0m [32m 30% E[0m} -> {[31m28.5824Kg[0m [32m0.4065KWh[0m} || [35mUSD 0.03061995 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m1.9578km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m28.4530Kg[0m [32m0.4065KWh[0m} || [35mUSD 0.21856882 (1.0000USD)[0m
+> {[36mPICK[0m [33m70.0000kph[0m [33m0.0633km[0m} <-> {[37mPUM:[0m [31m 98% IC[0m [32m  2% E[0m} -> {[31m28.4189Kg[0m [32m0.4016KWh[0m} || [35mUSD 0.05815121 (1.0000USD)[0m
+> {[36mPACE[0m [33m70.0000kph[0m [33m4.9367km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m28.0185Kg[0m [32m0.4016KWh[0m} || [35mUSD 0.67625121 (1.0000USD)[0m
+> {[36mPICK[0m [33m90.0000kph[0m [33m0.0844km[0m} <-> {[37mPUM:[0m [31m 58% IC[0m [32m 42% E[0m} -> {[31m27.9844Kg[0m [32m0.3339KWh[0m} || [35mUSD 0.06632448 (1.0000USD)[0m
+> {[36mPACE[0m [33m90.0000kph[0m [33m9.8527km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m26.9965Kg[0m [32m0.3339KWh[0m} || [35mUSD 1.66829344 (1.0000USD)[0m
+> {[36mDROP[0m [33m50.0000kph[0m [33m0.0629km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m26.9965Kg[0m [32m0.4897KWh[0m}
+> {[36mPACE[0m [33m50.0000kph[0m [33m1.0000km[0m} <-> {[37mPUM:[0m [31m 84% IC[0m [32m 16% E[0m} -> {[31m26.9345Kg[0m [32m0.4391KWh[0m} || [35mUSD 0.11118012 (1.0000USD)[0m
+> {[36mPICK[0m [33m70.0000kph[0m [33m0.0633km[0m} <-> {[37mPUM:[0m [31m 60% IC[0m [32m 40% E[0m} -> {[31m26.9100Kg[0m [32m0.3945KWh[0m} || [35mUSD 0.04724264 (1.0000USD)[0m
+> {[36mPACE[0m [33m70.0000kph[0m [33m1.8817km[0m} <-> {[37mPUM:[0m [31m 92% IC[0m [32m  8% E[0m} -> {[31m26.7646Kg[0m [32m0.3359KWh[0m} || [35mUSD 0.25314412 (1.0000USD)[0m
+> {[36mDROP[0m [33m0.0000kph[0m [33m0.0551km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m26.7646Kg[0m [32m0.4735KWh[0m}
+> {[36mPICK[0m [33m50.0000kph[0m [33m0.0647km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m26.7646Kg[0m [32m0.3558KWh[0m} || [35mUSD 0.01529503 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m1.4353km[0m} <-> {[37mPUM:[0m [31m 62% IC[0m [32m 38% E[0m} -> {[31m26.6830Kg[0m [32m0.2120KWh[0m} || [35mUSD 0.15659480 (1.0000USD)[0m
+> {[36mPICK[0m [33m60.0000kph[0m [33m0.0290km[0m} <-> {[37mPUM:[0m [31m 98% IC[0m [32m  2% E[0m} -> {[31m26.6676Kg[0m [32m0.2097KWh[0m} || [35mUSD 0.02624642 (1.0000USD)[0m
+> {[36mPACE[0m [33m60.0000kph[0m [33m0.9306km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m26.5998Kg[0m [32m0.2097KWh[0m} || [35mUSD 0.11450225 (1.0000USD)[0m
+> {[36mDROP[0m [33m0.0000kph[0m [33m0.0405km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m26.5998Kg[0m [32m0.3105KWh[0m}
+> {[36mPICK[0m [33m50.0000kph[0m [33m0.0647km[0m} <-> {[37mPUM:[0m [31m 22% IC[0m [32m 78% E[0m} -> {[31m26.5856Kg[0m [32m0.2102KWh[0m} || [35mUSD 0.03702014 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m0.4353km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m26.5568Kg[0m [32m0.2102KWh[0m} || [35mUSD 0.04859531 (1.0000USD)[0m
+> {[36mPICK[0m [33m70.0000kph[0m [33m0.0633km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m26.5223Kg[0m [32m0.2102KWh[0m} || [35mUSD 0.05820019 (1.0000USD)[0m
+> {[36mPACE[0m [33m70.0000kph[0m [33m4.8838km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m26.1262Kg[0m [32m0.2102KWh[0m} || [35mUSD 0.66900265 (1.0000USD)[0m
+> {[36mDROP[0m [33m13.8096kph[0m [33m0.0529km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m26.1262Kg[0m [32m0.3257KWh[0m}
+> {[36mPACE[0m [33m13.8096kph[0m [33m0.2000km[0m} <-> {[37mPUM:[0m [31m 82% IC[0m [32m 18% E[0m} -> {[31m26.0858Kg[0m [32m0.2939KWh[0m} || [35mUSD 0.07230579 (1.0000USD)[0m
+> {[36mPICK[0m [33m50.0000kph[0m [33m0.0612km[0m} <-> {[37mPUM:[0m [31m 22% IC[0m [32m 78% E[0m} -> {[31m26.0713Kg[0m [32m0.1777KWh[0m} || [35mUSD 0.03959554 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m0.7128km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m25.9892Kg[0m [32m0.1777KWh[0m} || [35mUSD 0.13866693 (1.0000USD)[0m
+> {[36mDROP[0m [33m13.8096kph[0m [33m0.0259km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m25.9892Kg[0m [32m0.2343KWh[0m}
+> {[36mPACE[0m [33m13.8096kph[0m [33m0.2000km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m25.9892Kg[0m [32m0.1718KWh[0m} || [35mUSD 0.00813110 (1.0000USD)[0m
+> {[36mPICK[0m [33m50.0000kph[0m [33m0.0612km[0m} <-> {[37mPUM:[0m [31m 44% IC[0m [32m 56% E[0m} -> {[31m25.9682Kg[0m [32m0.0862KWh[0m} || [35mUSD 0.04664596 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m0.7121km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m25.8861Kg[0m [32m0.0862KWh[0m} || [35mUSD 0.13852798 (1.0000USD)[0m
+> {[36mDROP[0m [33m11.2755kph[0m [33m0.0267km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m25.8861Kg[0m [32m0.1443KWh[0m}
+> {[36mPACE[0m [33m11.2755kph[0m [33m0.2000km[0m} <-> {[37mPUM:[0m [31m 48% IC[0m [32m 52% E[0m} -> {[31m25.8536Kg[0m [32m0.0695KWh[0m} || [35mUSD 0.06471972 (1.0000USD)[0m
+> {[36mPICK[0m [33m50.0000kph[0m [33m0.0625km[0m} <-> {[37mPUM:[0m [31m 56% IC[0m [32m 44% E[0m} -> {[31m25.8272Kg[0m [32m0.0002KWh[0m} || [35mUSD 0.05346335 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m1.5108km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m25.6268Kg[0m [32m0.0002KWh[0m} || [35mUSD 0.33848026 (1.0000USD)[0m
+> {[36mDROP[0m [33m11.2755kph[0m [33m0.0267km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m25.6268Kg[0m [32m0.0626KWh[0m}
+> {[36mPACE[0m [33m11.2755kph[0m [33m0.2000km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m25.6268Kg[0m [32m0.0033KWh[0m} || [35mUSD 0.00770684 (1.0000USD)[0m
+> {[36mPICK[0m [33m50.0000kph[0m [33m0.8000km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m25.5331Kg[0m [32m0.0033KWh[0m} || [35mUSD 0.15825470 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m0.0625km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m25.5212Kg[0m [32m0.0033KWh[0m} || [35mUSD 0.02006307 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m0.9108km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m25.3480Kg[0m [32m0.0033KWh[0m} || [35mUSD 0.29241821 (1.0000USD)[0m
+> {[36mDROP[0m [33m11.2755kph[0m [33m0.0267km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m25.3480Kg[0m [32m0.0542KWh[0m}
+> {[36mPACE[0m [33m11.2755kph[0m [33m0.1000km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m25.3241Kg[0m [32m0.0542KWh[0m} || [35mUSD 0.04041928 (1.0000USD)[0m
+> {[36mPICK[0m [33m50.0000kph[0m [33m0.0625km[0m} <-> {[37mPUM:[0m [31m 76% IC[0m [32m 24% E[0m} -> {[31m25.2578Kg[0m [32m0.0011KWh[0m} || [35mUSD 0.11881983 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m0.9375km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m25.0796Kg[0m [32m0.0011KWh[0m} || [35mUSD 0.30097796 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m0.5000km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m25.0465Kg[0m [32m0.0011KWh[0m} || [35mUSD 0.05581861 (1.0000USD)[0m
+
+USD 9.33463250 (1.0000USD)
+> {[36mPICK[0m [33m6.2817kph[0m [33m0.2000km[0m} <-> {[37mPUM:[0m [31m 62% IC[0m [32m 38% E[0m} -> {[31m30.0000Kg[0m [32m5.9999KWh[0m} || [35mUSD 0.00006125 (1.0000USD)[0m
+> {[36mPICK[0m [33m50.0000kph[0m [33m0.0647km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m30.0000Kg[0m [32m5.8515KWh[0m} || [35mUSD 0.01929509 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m0.7093km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m30.0000Kg[0m [32m5.5964KWh[0m} || [35mUSD 0.03316208 (1.0000USD)[0m
+> {[36mDROP[0m [33m13.8096kph[0m [33m0.0259km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m30.0000Kg[0m [32m5.6531KWh[0m}
+> {[36mPACE[0m [33m13.8096kph[0m [33m0.2000km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m30.0000Kg[0m [32m5.5905KWh[0m} || [35mUSD 0.00813110 (1.0000USD)[0m
+> {[36mPICK[0m [33m50.0000kph[0m [33m0.0612km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m30.0000Kg[0m [32m5.4503KWh[0m} || [35mUSD 0.01823124 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m0.7121km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m30.0000Kg[0m [32m5.1942KWh[0m} || [35mUSD 0.03329099 (1.0000USD)[0m
+> {[36mDROP[0m [33m11.2755kph[0m [33m0.0267km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m30.0000Kg[0m [32m5.2523KWh[0m}
+> {[36mPACE[0m [33m11.2755kph[0m [33m0.2000km[0m} <-> {[37mPUM:[0m [31m 48% IC[0m [32m 52% E[0m} -> {[31m29.9674Kg[0m [32m5.1775KWh[0m} || [35mUSD 0.06471972 (1.0000USD)[0m
+> {[36mPICK[0m [33m50.0000kph[0m [33m0.0625km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m29.9674Kg[0m [32m5.0273KWh[0m} || [35mUSD 0.01953051 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m1.5108km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m29.9674Kg[0m [32m4.4258KWh[0m} || [35mUSD 0.07818462 (1.0000USD)[0m
+> {[36mDROP[0m [33m11.2755kph[0m [33m0.0267km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m29.9674Kg[0m [32m4.4882KWh[0m}
+> {[36mPACE[0m [33m11.2755kph[0m [33m0.2000km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m29.9674Kg[0m [32m4.4289KWh[0m} || [35mUSD 0.00770684 (1.0000USD)[0m
+> {[36mPICK[0m [33m50.0000kph[0m [33m0.8000km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m29.9674Kg[0m [32m4.2787KWh[0m} || [35mUSD 0.01953051 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m0.0625km[0m} <-> {[37mPUM:[0m [31m 10% IC[0m [32m 90% E[0m} -> {[31m29.9643Kg[0m [32m4.2420KWh[0m} || [35mUSD 0.01006654 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m0.9108km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m29.9643Kg[0m [32m3.7356KWh[0m} || [35mUSD 0.06584253 (1.0000USD)[0m
+> {[36mDROP[0m [33m11.2755kph[0m [33m0.0267km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m29.9643Kg[0m [32m3.7865KWh[0m}
+> {[36mPACE[0m [33m11.2755kph[0m [33m0.1000km[0m} <-> {[37mPUM:[0m [31m 10% IC[0m [32m 90% E[0m} -> {[31m29.9568Kg[0m [32m3.7211KWh[0m} || [35mUSD 0.02114284 (1.0000USD)[0m
+> {[36mPICK[0m [33m50.0000kph[0m [33m1.0000km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m29.9568Kg[0m [32m3.5457KWh[0m} || [35mUSD 0.02279852 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m0.0625km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m29.9568Kg[0m [32m3.5344KWh[0m} || [35mUSD 0.00146353 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m0.4094km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m29.9568Kg[0m [32m3.4607KWh[0m} || [35mUSD 0.00958804 (1.0000USD)[0m
+> {[36mDROP[0m [33m0.0000kph[0m [33m0.0281km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m29.9568Kg[0m [32m3.5123KWh[0m}
+> {[36mPICK[0m [33m50.0000kph[0m [33m0.0647km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m29.9568Kg[0m [32m3.3958KWh[0m} || [35mUSD 0.01514172 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m0.2072km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m29.9568Kg[0m [32m3.3585KWh[0m} || [35mUSD 0.00485252 (1.0000USD)[0m
+> {[36mDROP[0m [33m0.0000kph[0m [33m0.0281km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m29.9568Kg[0m [32m3.4100KWh[0m}
+> {[36mPICK[0m [33m50.0000kph[0m [33m0.0647km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m29.9568Kg[0m [32m3.2935KWh[0m} || [35mUSD 0.01514172 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m0.9353km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m29.9568Kg[0m [32m3.1251KWh[0m} || [35mUSD 0.02190360 (1.0000USD)[0m
+> {[36mPICK[0m [33m70.0000kph[0m [33m0.0633km[0m} <-> {[37mPUM:[0m [31m 64% IC[0m [32m 36% E[0m} -> {[31m29.9327Kg[0m [32m3.0843KWh[0m} || [35mUSD 0.04594901 (1.0000USD)[0m
+> {[36mPACE[0m [33m70.0000kph[0m [33m4.9098km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m29.9327Kg[0m [32m2.1516KWh[0m} || [35mUSD 0.12125589 (1.0000USD)[0m
+> {[36mDROP[0m [33m50.0000kph[0m [33m0.0270km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m29.9327Kg[0m [32m2.2208KWh[0m}
+> {[36mPACE[0m [33m50.0000kph[0m [33m1.9719km[0m} <-> {[37mPUM:[0m [31m 22% IC[0m [32m 78% E[0m} -> {[31m29.8635Kg[0m [32m1.9114KWh[0m} || [35mUSD 0.15713825 (1.0000USD)[0m
+> {[36mDROP[0m [33m0.0000kph[0m [33m0.0281km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m29.8635Kg[0m [32m1.9629KWh[0m}
+> {[36mPICK[0m [33m30.0000kph[0m [33m0.0225km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m29.8635Kg[0m [32m1.9260KWh[0m} || [35mUSD 0.00480765 (1.0000USD)[0m
+> {[36mPACE[0m [33m30.0000kph[0m [33m0.4775km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m29.8635Kg[0m [32m1.8382KWh[0m} || [35mUSD 0.01140890 (1.0000USD)[0m
+> {[36mPICK[0m [33m50.0000kph[0m [33m0.0422km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m29.8635Kg[0m [32m1.7621KWh[0m} || [35mUSD 0.00989157 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m1.9578km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m29.8635Kg[0m [32m1.4094KWh[0m} || [35mUSD 0.04585063 (1.0000USD)[0m
+> {[36mPICK[0m [33m70.0000kph[0m [33m0.0633km[0m} <-> {[37mPUM:[0m [31m 98% IC[0m [32m  2% E[0m} -> {[31m29.8294Kg[0m [32m1.4044KWh[0m} || [35mUSD 0.05815121 (1.0000USD)[0m
+> {[36mPACE[0m [33m70.0000kph[0m [33m4.9367km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m29.8294Kg[0m [32m0.4666KWh[0m} || [35mUSD 0.12192190 (1.0000USD)[0m
+> {[36mPICK[0m [33m90.0000kph[0m [33m0.0844km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m29.8294Kg[0m [32m0.2855KWh[0m} || [35mUSD 0.02353662 (1.0000USD)[0m
+> {[36mPACE[0m [33m90.0000kph[0m [33m9.8527km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m28.8415Kg[0m [32m0.2855KWh[0m} || [35mUSD 1.66829344 (1.0000USD)[0m
+> {[36mDROP[0m [33m50.0000kph[0m [33m0.0629km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m28.8415Kg[0m [32m0.4413KWh[0m}
+> {[36mPACE[0m [33m50.0000kph[0m [33m1.0000km[0m} <-> {[37mPUM:[0m [31m 98% IC[0m [32m  2% E[0m} -> {[31m28.7760Kg[0m [32m0.4341KWh[0m} || [35mUSD 0.11159090 (1.0000USD)[0m
+> {[36mPICK[0m [33m70.0000kph[0m [33m0.0633km[0m} <-> {[37mPUM:[0m [31m 70% IC[0m [32m 30% E[0m} -> {[31m28.7520Kg[0m [32m0.3984KWh[0m} || [35mUSD 0.04517120 (1.0000USD)[0m
+> {[36mPACE[0m [33m70.0000kph[0m [33m1.8918km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m28.5985Kg[0m [32m0.3984KWh[0m} || [35mUSD 0.25914415 (1.0000USD)[0m
+> {[36mDROP[0m [33m30.0000kph[0m [33m0.0449km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m28.5985Kg[0m [32m0.5133KWh[0m}
+> {[36mPACE[0m [33m30.0000kph[0m [33m0.5000km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m28.5985Kg[0m [32m0.4326KWh[0m} || [35mUSD 0.01048773 (1.0000USD)[0m
+> {[36mPICK[0m [33m50.0000kph[0m [33m0.0422km[0m} <-> {[37mPUM:[0m [31m 70% IC[0m [32m 30% E[0m} -> {[31m28.5824Kg[0m [32m0.4065KWh[0m} || [35mUSD 0.03061995 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m1.9578km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m28.4530Kg[0m [32m0.4065KWh[0m} || [35mUSD 0.21856882 (1.0000USD)[0m
+> {[36mPICK[0m [33m70.0000kph[0m [33m0.0633km[0m} <-> {[37mPUM:[0m [31m 98% IC[0m [32m  2% E[0m} -> {[31m28.4189Kg[0m [32m0.4016KWh[0m} || [35mUSD 0.05815121 (1.0000USD)[0m
+> {[36mPACE[0m [33m70.0000kph[0m [33m4.9367km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m28.0185Kg[0m [32m0.4016KWh[0m} || [35mUSD 0.67625121 (1.0000USD)[0m
+> {[36mPICK[0m [33m90.0000kph[0m [33m0.0844km[0m} <-> {[37mPUM:[0m [31m 58% IC[0m [32m 42% E[0m} -> {[31m27.9844Kg[0m [32m0.3339KWh[0m} || [35mUSD 0.06632448 (1.0000USD)[0m
+> {[36mPACE[0m [33m90.0000kph[0m [33m9.8527km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m26.9965Kg[0m [32m0.3339KWh[0m} || [35mUSD 1.66829344 (1.0000USD)[0m
+> {[36mDROP[0m [33m50.0000kph[0m [33m0.0629km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m26.9965Kg[0m [32m0.4897KWh[0m}
+> {[36mPACE[0m [33m50.0000kph[0m [33m1.0000km[0m} <-> {[37mPUM:[0m [31m 84% IC[0m [32m 16% E[0m} -> {[31m26.9345Kg[0m [32m0.4391KWh[0m} || [35mUSD 0.11118012 (1.0000USD)[0m
+> {[36mPICK[0m [33m70.0000kph[0m [33m0.0633km[0m} <-> {[37mPUM:[0m [31m 28% IC[0m [32m 72% E[0m} -> {[31m26.9213Kg[0m [32m0.3474KWh[0m} || [35mUSD 0.03430308 (1.0000USD)[0m
+> {[36mPACE[0m [33m70.0000kph[0m [33m1.8817km[0m} <-> {[37mPUM:[0m [31m 92% IC[0m [32m  8% E[0m} -> {[31m26.7759Kg[0m [32m0.2887KWh[0m} || [35mUSD 0.25314412 (1.0000USD)[0m
+> {[36mDROP[0m [33m0.0000kph[0m [33m0.0551km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m26.7759Kg[0m [32m0.4263KWh[0m}
+> {[36mPICK[0m [33m50.0000kph[0m [33m0.0647km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m26.7759Kg[0m [32m0.3087KWh[0m} || [35mUSD 0.01529503 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m1.4353km[0m} <-> {[37mPUM:[0m [31m 62% IC[0m [32m 38% E[0m} -> {[31m26.6942Kg[0m [32m0.1648KWh[0m} || [35mUSD 0.15659480 (1.0000USD)[0m
+> {[36mPICK[0m [33m60.0000kph[0m [33m0.0290km[0m} <-> {[37mPUM:[0m [31m 98% IC[0m [32m  2% E[0m} -> {[31m26.6789Kg[0m [32m0.1626KWh[0m} || [35mUSD 0.02624642 (1.0000USD)[0m
+> {[36mPACE[0m [33m60.0000kph[0m [33m0.9306km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m26.6111Kg[0m [32m0.1626KWh[0m} || [35mUSD 0.11450225 (1.0000USD)[0m
+> {[36mDROP[0m [33m0.0000kph[0m [33m0.0405km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m26.6111Kg[0m [32m0.2634KWh[0m}
+> {[36mPICK[0m [33m50.0000kph[0m [33m0.0647km[0m} <-> {[37mPUM:[0m [31m 22% IC[0m [32m 78% E[0m} -> {[31m26.5969Kg[0m [32m0.1630KWh[0m} || [35mUSD 0.03702014 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m0.4353km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m26.5681Kg[0m [32m0.1630KWh[0m} || [35mUSD 0.04859531 (1.0000USD)[0m
+> {[36mPICK[0m [33m70.0000kph[0m [33m0.0633km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m26.5336Kg[0m [32m0.1630KWh[0m} || [35mUSD 0.05820019 (1.0000USD)[0m
+> {[36mPACE[0m [33m70.0000kph[0m [33m4.8838km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m26.1375Kg[0m [32m0.1630KWh[0m} || [35mUSD 0.66900265 (1.0000USD)[0m
+> {[36mDROP[0m [33m13.8096kph[0m [33m0.0529km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m26.1375Kg[0m [32m0.2785KWh[0m}
+> {[36mPACE[0m [33m13.8096kph[0m [33m0.2000km[0m} <-> {[37mPUM:[0m [31m 82% IC[0m [32m 18% E[0m} -> {[31m26.0971Kg[0m [32m0.2467KWh[0m} || [35mUSD 0.07230579 (1.0000USD)[0m
+> {[36mPICK[0m [33m50.0000kph[0m [33m0.0612km[0m} <-> {[37mPUM:[0m [31m 22% IC[0m [32m 78% E[0m} -> {[31m26.0826Kg[0m [32m0.1305KWh[0m} || [35mUSD 0.03959554 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m0.7128km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m26.0005Kg[0m [32m0.1305KWh[0m} || [35mUSD 0.13866693 (1.0000USD)[0m
+> {[36mDROP[0m [33m13.8096kph[0m [33m0.0259km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m26.0005Kg[0m [32m0.1872KWh[0m}
+> {[36mPACE[0m [33m13.8096kph[0m [33m0.2000km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m26.0005Kg[0m [32m0.1246KWh[0m} || [35mUSD 0.00813110 (1.0000USD)[0m
+> {[36mPICK[0m [33m50.0000kph[0m [33m0.0612km[0m} <-> {[37mPUM:[0m [31m 44% IC[0m [32m 56% E[0m} -> {[31m25.9795Kg[0m [32m0.0391KWh[0m} || [35mUSD 0.04664596 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m0.7121km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m25.8974Kg[0m [32m0.0391KWh[0m} || [35mUSD 0.13852798 (1.0000USD)[0m
+> {[36mDROP[0m [33m11.2755kph[0m [33m0.0267km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m25.8974Kg[0m [32m0.0971KWh[0m}
+> {[36mPACE[0m [33m11.2755kph[0m [33m0.2000km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m25.8974Kg[0m [32m0.0277KWh[0m} || [35mUSD 0.00902497 (1.0000USD)[0m
+> {[36mPICK[0m [33m50.0000kph[0m [33m0.0625km[0m} <-> {[37mPUM:[0m [31m 90% IC[0m [32m 10% E[0m} -> {[31m25.8273Kg[0m [32m0.0010KWh[0m} || [35mUSD 0.12184231 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m1.5108km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m25.6269Kg[0m [32m0.0010KWh[0m} || [35mUSD 0.33848026 (1.0000USD)[0m
+> {[36mDROP[0m [33m11.2755kph[0m [33m0.0267km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m25.6269Kg[0m [32m0.0633KWh[0m}
+> {[36mPACE[0m [33m11.2755kph[0m [33m0.2000km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m25.6269Kg[0m [32m0.0040KWh[0m} || [35mUSD 0.00770684 (1.0000USD)[0m
+> {[36mPICK[0m [33m50.0000kph[0m [33m0.8000km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m25.5332Kg[0m [32m0.0040KWh[0m} || [35mUSD 0.15825470 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m0.0625km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m25.5213Kg[0m [32m0.0040KWh[0m} || [35mUSD 0.02006307 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m0.9108km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m25.3481Kg[0m [32m0.0040KWh[0m} || [35mUSD 0.29241821 (1.0000USD)[0m
+> {[36mDROP[0m [33m11.2755kph[0m [33m0.0267km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m25.3481Kg[0m [32m0.0549KWh[0m}
+> {[36mPACE[0m [33m11.2755kph[0m [33m0.1000km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m25.3242Kg[0m [32m0.0549KWh[0m} || [35mUSD 0.04041928 (1.0000USD)[0m
+> {[36mPICK[0m [33m50.0000kph[0m [33m0.0625km[0m} <-> {[37mPUM:[0m [31m 76% IC[0m [32m 24% E[0m} -> {[31m25.2579Kg[0m [32m0.0018KWh[0m} || [35mUSD 0.11881983 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m0.9375km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m25.0797Kg[0m [32m0.0018KWh[0m} || [35mUSD 0.30097796 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m0.5000km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m25.0466Kg[0m [32m0.0018KWh[0m} || [35mUSD 0.05581861 (1.0000USD)[0m
+
+USD 9.33437715 (1.0000USD)
+> {[36mPICK[0m [33m6.2817kph[0m [33m0.2000km[0m} <-> {[37mPUM:[0m [31m 62% IC[0m [32m 38% E[0m} -> {[31m30.0000Kg[0m [32m5.9999KWh[0m} || [35mUSD 0.00006125 (1.0000USD)[0m
+> {[36mPICK[0m [33m50.0000kph[0m [33m0.0647km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m30.0000Kg[0m [32m5.8515KWh[0m} || [35mUSD 0.01929509 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m0.7093km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m30.0000Kg[0m [32m5.5964KWh[0m} || [35mUSD 0.03316208 (1.0000USD)[0m
+> {[36mDROP[0m [33m13.8096kph[0m [33m0.0259km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m30.0000Kg[0m [32m5.6531KWh[0m}
+> {[36mPACE[0m [33m13.8096kph[0m [33m0.2000km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m30.0000Kg[0m [32m5.5905KWh[0m} || [35mUSD 0.00813110 (1.0000USD)[0m
+> {[36mPICK[0m [33m50.0000kph[0m [33m0.0612km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m30.0000Kg[0m [32m5.4503KWh[0m} || [35mUSD 0.01823124 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m0.7121km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m30.0000Kg[0m [32m5.1942KWh[0m} || [35mUSD 0.03329099 (1.0000USD)[0m
+> {[36mDROP[0m [33m11.2755kph[0m [33m0.0267km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m30.0000Kg[0m [32m5.2523KWh[0m}
+> {[36mPACE[0m [33m11.2755kph[0m [33m0.2000km[0m} <-> {[37mPUM:[0m [31m 48% IC[0m [32m 52% E[0m} -> {[31m29.9674Kg[0m [32m5.1775KWh[0m} || [35mUSD 0.06471972 (1.0000USD)[0m
+> {[36mPICK[0m [33m50.0000kph[0m [33m0.0625km[0m} <-> {[37mPUM:[0m [31m 58% IC[0m [32m 42% E[0m} -> {[31m29.9401Kg[0m [32m5.1114KWh[0m} || [35mUSD 0.05470112 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m1.5108km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m29.9401Kg[0m [32m4.5099KWh[0m} || [35mUSD 0.07818462 (1.0000USD)[0m
+> {[36mDROP[0m [33m11.2755kph[0m [33m0.0267km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m29.9401Kg[0m [32m4.5723KWh[0m}
+> {[36mPACE[0m [33m11.2755kph[0m [33m0.2000km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m29.9401Kg[0m [32m4.5130KWh[0m} || [35mUSD 0.00770684 (1.0000USD)[0m
+> {[36mPICK[0m [33m50.0000kph[0m [33m0.8000km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m29.9401Kg[0m [32m4.3628KWh[0m} || [35mUSD 0.01953051 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m0.0625km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m29.9401Kg[0m [32m4.3280KWh[0m} || [35mUSD 0.00451751 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m0.9108km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m29.9401Kg[0m [32m3.8215KWh[0m} || [35mUSD 0.06584253 (1.0000USD)[0m
+> {[36mDROP[0m [33m11.2755kph[0m [33m0.0267km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m29.9401Kg[0m [32m3.8725KWh[0m}
+> {[36mPACE[0m [33m11.2755kph[0m [33m0.1000km[0m} <-> {[37mPUM:[0m [31m 10% IC[0m [32m 90% E[0m} -> {[31m29.9326Kg[0m [32m3.8071KWh[0m} || [35mUSD 0.02114284 (1.0000USD)[0m
+> {[36mPICK[0m [33m50.0000kph[0m [33m1.0000km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m29.9326Kg[0m [32m3.6317KWh[0m} || [35mUSD 0.02279852 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m0.0625km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m29.9326Kg[0m [32m3.6204KWh[0m} || [35mUSD 0.00146353 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m0.4094km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m29.9326Kg[0m [32m3.5467KWh[0m} || [35mUSD 0.00958804 (1.0000USD)[0m
+> {[36mDROP[0m [33m0.0000kph[0m [33m0.0281km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m29.9326Kg[0m [32m3.5982KWh[0m}
+> {[36mPICK[0m [33m50.0000kph[0m [33m0.0647km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m29.9326Kg[0m [32m3.4818KWh[0m} || [35mUSD 0.01514172 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m0.2072km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m29.9326Kg[0m [32m3.4444KWh[0m} || [35mUSD 0.00485252 (1.0000USD)[0m
+> {[36mDROP[0m [33m0.0000kph[0m [33m0.0281km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m29.9326Kg[0m [32m3.4960KWh[0m}
+> {[36mPICK[0m [33m50.0000kph[0m [33m0.0647km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m29.9326Kg[0m [32m3.3795KWh[0m} || [35mUSD 0.01514172 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m0.9353km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m29.9326Kg[0m [32m3.2110KWh[0m} || [35mUSD 0.02190360 (1.0000USD)[0m
+> {[36mPICK[0m [33m70.0000kph[0m [33m0.0633km[0m} <-> {[37mPUM:[0m [31m 80% IC[0m [32m 20% E[0m} -> {[31m29.9012Kg[0m [32m3.1826KWh[0m} || [35mUSD 0.05674700 (1.0000USD)[0m
+> {[36mPACE[0m [33m70.0000kph[0m [33m4.9098km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m29.9012Kg[0m [32m2.2499KWh[0m} || [35mUSD 0.12125589 (1.0000USD)[0m
+> {[36mDROP[0m [33m50.0000kph[0m [33m0.0270km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m29.9012Kg[0m [32m2.3191KWh[0m}
+> {[36mPACE[0m [33m50.0000kph[0m [33m1.9719km[0m} <-> {[37mPUM:[0m [31m 22% IC[0m [32m 78% E[0m} -> {[31m29.8320Kg[0m [32m2.0097KWh[0m} || [35mUSD 0.15713825 (1.0000USD)[0m
+> {[36mDROP[0m [33m0.0000kph[0m [33m0.0281km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m29.8320Kg[0m [32m2.0613KWh[0m}
+> {[36mPICK[0m [33m30.0000kph[0m [33m0.0225km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m29.8320Kg[0m [32m2.0243KWh[0m} || [35mUSD 0.00480765 (1.0000USD)[0m
+> {[36mPACE[0m [33m30.0000kph[0m [33m0.4775km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m29.8320Kg[0m [32m1.9365KWh[0m} || [35mUSD 0.01140890 (1.0000USD)[0m
+> {[36mPICK[0m [33m50.0000kph[0m [33m0.0422km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m29.8320Kg[0m [32m1.8604KWh[0m} || [35mUSD 0.00989157 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m1.9578km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m29.8320Kg[0m [32m1.5077KWh[0m} || [35mUSD 0.04585063 (1.0000USD)[0m
+> {[36mPICK[0m [33m70.0000kph[0m [33m0.0633km[0m} <-> {[37mPUM:[0m [31m 62% IC[0m [32m 38% E[0m} -> {[31m29.8077Kg[0m [32m1.4651KWh[0m} || [35mUSD 0.04658247 (1.0000USD)[0m
+> {[36mPACE[0m [33m70.0000kph[0m [33m4.9367km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m29.8077Kg[0m [32m0.5273KWh[0m} || [35mUSD 0.12192190 (1.0000USD)[0m
+> {[36mPICK[0m [33m90.0000kph[0m [33m0.0844km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m29.8077Kg[0m [32m0.3462KWh[0m} || [35mUSD 0.02353662 (1.0000USD)[0m
+> {[36mPACE[0m [33m90.0000kph[0m [33m9.8527km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m28.8197Kg[0m [32m0.3462KWh[0m} || [35mUSD 1.66829344 (1.0000USD)[0m
+> {[36mDROP[0m [33m50.0000kph[0m [33m0.0629km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m28.8197Kg[0m [32m0.5019KWh[0m}
+> {[36mPACE[0m [33m50.0000kph[0m [33m1.0000km[0m} <-> {[37mPUM:[0m [31m 98% IC[0m [32m  2% E[0m} -> {[31m28.7542Kg[0m [32m0.4948KWh[0m} || [35mUSD 0.11159090 (1.0000USD)[0m
+> {[36mPICK[0m [33m70.0000kph[0m [33m0.0633km[0m} <-> {[37mPUM:[0m [31m 70% IC[0m [32m 30% E[0m} -> {[31m28.7302Kg[0m [32m0.4591KWh[0m} || [35mUSD 0.04517120 (1.0000USD)[0m
+> {[36mPACE[0m [33m70.0000kph[0m [33m1.8918km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m28.5768Kg[0m [32m0.4591KWh[0m} || [35mUSD 0.25914415 (1.0000USD)[0m
+> {[36mDROP[0m [33m30.0000kph[0m [33m0.0449km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m28.5768Kg[0m [32m0.5740KWh[0m}
+> {[36mPACE[0m [33m30.0000kph[0m [33m0.5000km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m28.5768Kg[0m [32m0.4933KWh[0m} || [35mUSD 0.01048773 (1.0000USD)[0m
+> {[36mPICK[0m [33m50.0000kph[0m [33m0.0422km[0m} <-> {[37mPUM:[0m [31m 70% IC[0m [32m 30% E[0m} -> {[31m28.5606Kg[0m [32m0.4672KWh[0m} || [35mUSD 0.03061995 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m1.9578km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m28.4312Kg[0m [32m0.4672KWh[0m} || [35mUSD 0.21856882 (1.0000USD)[0m
+> {[36mPICK[0m [33m70.0000kph[0m [33m0.0633km[0m} <-> {[37mPUM:[0m [31m 74% IC[0m [32m 26% E[0m} -> {[31m28.4059Kg[0m [32m0.4345KWh[0m} || [35mUSD 0.04692529 (1.0000USD)[0m
+> {[36mPACE[0m [33m70.0000kph[0m [33m4.9367km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m28.0055Kg[0m [32m0.4345KWh[0m} || [35mUSD 0.67625121 (1.0000USD)[0m
+> {[36mPICK[0m [33m90.0000kph[0m [33m0.0844km[0m} <-> {[37mPUM:[0m [31m 58% IC[0m [32m 42% E[0m} -> {[31m27.9714Kg[0m [32m0.3668KWh[0m} || [35mUSD 0.06632448 (1.0000USD)[0m
+> {[36mPACE[0m [33m90.0000kph[0m [33m9.8527km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m26.9835Kg[0m [32m0.3668KWh[0m} || [35mUSD 1.66829344 (1.0000USD)[0m
+> {[36mDROP[0m [33m50.0000kph[0m [33m0.0629km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m26.9835Kg[0m [32m0.5225KWh[0m}
+> {[36mPACE[0m [33m50.0000kph[0m [33m1.0000km[0m} <-> {[37mPUM:[0m [31m 84% IC[0m [32m 16% E[0m} -> {[31m26.9216Kg[0m [32m0.4720KWh[0m} || [35mUSD 0.11118012 (1.0000USD)[0m
+> {[36mPICK[0m [33m70.0000kph[0m [33m0.0633km[0m} <-> {[37mPUM:[0m [31m 28% IC[0m [32m 72% E[0m} -> {[31m26.9083Kg[0m [32m0.3803KWh[0m} || [35mUSD 0.03430308 (1.0000USD)[0m
+> {[36mPACE[0m [33m70.0000kph[0m [33m1.8817km[0m} <-> {[37mPUM:[0m [31m 92% IC[0m [32m  8% E[0m} -> {[31m26.7629Kg[0m [32m0.3216KWh[0m} || [35mUSD 0.25314412 (1.0000USD)[0m
+> {[36mDROP[0m [33m0.0000kph[0m [33m0.0551km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m26.7629Kg[0m [32m0.4592KWh[0m}
+> {[36mPICK[0m [33m50.0000kph[0m [33m0.0647km[0m} <-> {[37mPUM:[0m [31m 14% IC[0m [32m 86% E[0m} -> {[31m26.7512Kg[0m [32m0.3504KWh[0m} || [35mUSD 0.03395479 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m1.4353km[0m} <-> {[37mPUM:[0m [31m 62% IC[0m [32m 38% E[0m} -> {[31m26.6695Kg[0m [32m0.2065KWh[0m} || [35mUSD 0.15659480 (1.0000USD)[0m
+> {[36mPICK[0m [33m60.0000kph[0m [33m0.0290km[0m} <-> {[37mPUM:[0m [31m 98% IC[0m [32m  2% E[0m} -> {[31m26.6542Kg[0m [32m0.2042KWh[0m} || [35mUSD 0.02624642 (1.0000USD)[0m
+> {[36mPACE[0m [33m60.0000kph[0m [33m0.9306km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m26.5864Kg[0m [32m0.2042KWh[0m} || [35mUSD 0.11450225 (1.0000USD)[0m
+> {[36mDROP[0m [33m0.0000kph[0m [33m0.0405km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m26.5864Kg[0m [32m0.3050KWh[0m}
+> {[36mPICK[0m [33m50.0000kph[0m [33m0.0647km[0m} <-> {[37mPUM:[0m [31m 22% IC[0m [32m 78% E[0m} -> {[31m26.5722Kg[0m [32m0.2047KWh[0m} || [35mUSD 0.03702014 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m0.4353km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m26.5434Kg[0m [32m0.2047KWh[0m} || [35mUSD 0.04859531 (1.0000USD)[0m
+> {[36mPICK[0m [33m70.0000kph[0m [33m0.0633km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m26.5089Kg[0m [32m0.2047KWh[0m} || [35mUSD 0.05820019 (1.0000USD)[0m
+> {[36mPACE[0m [33m70.0000kph[0m [33m4.8838km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m26.1128Kg[0m [32m0.2047KWh[0m} || [35mUSD 0.66900265 (1.0000USD)[0m
+> {[36mDROP[0m [33m13.8096kph[0m [33m0.0529km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m26.1128Kg[0m [32m0.3202KWh[0m}
+> {[36mPACE[0m [33m13.8096kph[0m [33m0.2000km[0m} <-> {[37mPUM:[0m [31m 82% IC[0m [32m 18% E[0m} -> {[31m26.0724Kg[0m [32m0.2884KWh[0m} || [35mUSD 0.07230579 (1.0000USD)[0m
+> {[36mPICK[0m [33m50.0000kph[0m [33m0.0612km[0m} <-> {[37mPUM:[0m [31m 34% IC[0m [32m 66% E[0m} -> {[31m26.0536Kg[0m [32m0.1901KWh[0m} || [35mUSD 0.04452961 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m0.7128km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m25.9715Kg[0m [32m0.1901KWh[0m} || [35mUSD 0.13866693 (1.0000USD)[0m
+> {[36mDROP[0m [33m13.8096kph[0m [33m0.0259km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m25.9715Kg[0m [32m0.2467KWh[0m}
+> {[36mPACE[0m [33m13.8096kph[0m [33m0.2000km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m25.9715Kg[0m [32m0.1842KWh[0m} || [35mUSD 0.00813110 (1.0000USD)[0m
+> {[36mPICK[0m [33m50.0000kph[0m [33m0.0612km[0m} <-> {[37mPUM:[0m [31m 44% IC[0m [32m 56% E[0m} -> {[31m25.9505Kg[0m [32m0.0986KWh[0m} || [35mUSD 0.04664596 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m0.7121km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m25.8684Kg[0m [32m0.0986KWh[0m} || [35mUSD 0.13852798 (1.0000USD)[0m
+> {[36mDROP[0m [33m11.2755kph[0m [33m0.0267km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m25.8684Kg[0m [32m0.1567KWh[0m}
+> {[36mPACE[0m [33m11.2755kph[0m [33m0.2000km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m25.8684Kg[0m [32m0.0873KWh[0m} || [35mUSD 0.00902497 (1.0000USD)[0m
+> {[36mPICK[0m [33m50.0000kph[0m [33m0.0625km[0m} <-> {[37mPUM:[0m [31m 52% IC[0m [32m 48% E[0m} -> {[31m25.8429Kg[0m [32m0.0115KWh[0m} || [35mUSD 0.05289323 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m1.5108km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m25.6425Kg[0m [32m0.0115KWh[0m} || [35mUSD 0.33848026 (1.0000USD)[0m
+> {[36mDROP[0m [33m11.2755kph[0m [33m0.0267km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m25.6425Kg[0m [32m0.0738KWh[0m}
+> {[36mPACE[0m [33m11.2755kph[0m [33m0.2000km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m25.6425Kg[0m [32m0.0145KWh[0m} || [35mUSD 0.00770684 (1.0000USD)[0m
+> {[36mPICK[0m [33m50.0000kph[0m [33m0.8000km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m25.5488Kg[0m [32m0.0145KWh[0m} || [35mUSD 0.15825470 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m0.0625km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m25.5369Kg[0m [32m0.0145KWh[0m} || [35mUSD 0.02006307 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m0.9108km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m25.3637Kg[0m [32m0.0145KWh[0m} || [35mUSD 0.29241821 (1.0000USD)[0m
+> {[36mDROP[0m [33m11.2755kph[0m [33m0.0267km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m25.3637Kg[0m [32m0.0654KWh[0m}
+> {[36mPACE[0m [33m11.2755kph[0m [33m0.1000km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m25.3398Kg[0m [32m0.0654KWh[0m} || [35mUSD 0.04041928 (1.0000USD)[0m
+> {[36mPICK[0m [33m50.0000kph[0m [33m0.0625km[0m} <-> {[37mPUM:[0m [31m 66% IC[0m [32m 34% E[0m} -> {[31m25.2855Kg[0m [32m0.0006KWh[0m} || [35mUSD 0.10008507 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m0.9375km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m25.1073Kg[0m [32m0.0006KWh[0m} || [35mUSD 0.30097796 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m0.5000km[0m} <-> {[37mPUM:[0m [31m100% IC[0m [32m  0% E[0m} -> {[31m25.0743Kg[0m [32m0.0006KWh[0m} || [35mUSD 0.05581861 (1.0000USD)[0m
+
+USD 9.28791207 (1.0000USD)

@@ -1,0 +1,28 @@
+testVehicle =
+    Vehicle
+        { vehicleNakedMass       = Kg 2000
+        , vehicleGearbox         = FordFusionV6.gearbox
+        , vehicleGearboxNaming   = genericGearNaming FordFusionV6.gearbox
+        , vehicleDiff            = FordFusionV6.diff
+        , vehicleWheelRadius     = FordFusionV6.wheelRadius --
+        , vehicleDragCoeff       = 0.350
+        , vehicleFrontalArea     = Meter2 2.54
+        , vehicleRollingCoeff    = 0.02
+        --
+        , vehiclePowerUnit       = PowerUnit 
+                                    { puICPowerUnit = FordFusionV6.icPowerUnit
+                                    , puEPowerUnit  = BMWi3.ePowerUnit
+                                    }
+        , vehicleFuelUnitCostPerLiter = FuelUnitCostPerLiter 1.55
+        , vehicleElectricityCostPerKWattHour = ElectricityCostPerKWattHour 0.13
+        --
+        --
+        , vehicleState = VehicleState
+                            { vehicleStateSpeed = MeterSecond 0
+                            --
+                            , vehicleStateFuelMass = Kg 30
+                            --
+                            , vehicleStateChargeMax = KWattHour 8
+                            , vehicleStateChargeNow = KWattHour 2
+                            }
+        }

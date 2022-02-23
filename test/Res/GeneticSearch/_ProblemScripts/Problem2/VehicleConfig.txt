@@ -1,0 +1,36 @@
+VehicleConfig:
+
+testVehicle =
+    Vehicle
+        { vehicleNakedMass       = Kg 1300
+        , vehicleGearbox         = Fiat500.gearbox
+        , vehicleDiff            = Fiat500.diff
+        , vehicleWheelRadius     = Fiat500.wheelRadius 
+        , vehicleDragCoeff       = 0.350
+        , vehicleFrontalArea     = Meter2 2.54
+        , vehicleRollingCoeff    = 0.02
+        --
+        , vehiclePowerUnit       = PowerUnit 
+                                    { puICPowerUnit = Fiat500.icPowerUnit
+                                    , puEPowerUnit  = BMWi3.ePowerUnit
+                                    }
+        , vehicleFuelUnitCostPerLiter = FuelUnitCostPerLiter 1.55 --(Currency EUR (CurrencyExchange 1.60 0.8))
+        , vehicleElectricityCostPerKWattHour = ElectricityCostPerKWattHour 0.13 -- (Currency EUR (CurrencyExchange 0.13 0.8))
+        --
+        --
+        , vehicleState = VehicleState
+                            { vehicleStateSpeed = MeterSecond 0
+                            --
+                            , vehicleStateFuelMass = Kg 30
+                            --
+                            , vehicleStateChargeMax = KWattHour 8
+                            , vehicleStateChargeNow = KWattHour 3.5
+                            }
+        }
+
+
+icpu in mode REG
+epu  in more REG & REG (40HP, 30Nm)
+
+
+Time limit: 65 seconds

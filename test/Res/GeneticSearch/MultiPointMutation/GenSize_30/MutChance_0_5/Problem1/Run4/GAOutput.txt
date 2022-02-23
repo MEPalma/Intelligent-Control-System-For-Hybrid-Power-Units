@@ -1,0 +1,60 @@
++------------+
+| INPUT FILE |
++------------+
+[RU::{Speed: 0.0000kph, Length: 0.0000km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,RU::{Speed: 70.0000kph, Length: 2.5000km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,RU::{Speed: 100.0000kph, Length: 0.2000km, Slope: 0.0000rad, Corner-Radius: 4.0000km}
+,RU::{Speed: 90.0000kph, Length: 2.0000km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,RU::{Speed: 0.0000kph, Length: 0.0000km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,RU::{Speed: 50.0000kph, Length: 0.5000km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,RU::{Speed: 70.0000kph, Length: 5.0000km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,RU::{Speed: 0.0000kph, Length: 0.0000km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,RU::{Speed: 90.0000kph, Length: 2.0000km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,RU::{Speed: 90.0000kph, Length: 0.5000km, Slope: 4.0000°, Corner-Radius: 0.0000m}
+,RU::{Speed: 90.0000kph, Length: 6.0000km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,RU::{Speed: 50.0000kph, Length: 2.0000km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,RU::{Speed: 0.0000kph, Length: 0.0000km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+]
++---------------------+
+| PROCESSED ITINERARY |
++---------------------+
+[0) PICKRU::{Speed: 70.0000kph, Length: 0.1290km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,1) PACERU::{Speed: 70.0000kph, Length: 2.3710km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,2) PICKRU::{Speed: 100.0000kph, Length: 0.1494km, Slope: 0.0000rad, Corner-Radius: 4.0000km}
+,3) PACERU::{Speed: 100.0000kph, Length: 1.9383km, Slope: 0.0000rad, Corner-Radius: 4.0000km}
+,4) DROPRU::{Speed: 0.0000kph, Length: 0.1124km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,5) PICKRU::{Speed: 50.0000kph, Length: 0.0647km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,6) PACERU::{Speed: 50.0000kph, Length: 0.4353km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,7) PICKRU::{Speed: 70.0000kph, Length: 0.0642km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,8) PACERU::{Speed: 70.0000kph, Length: 4.8808km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,9) DROPRU::{Speed: 0.0000kph, Length: 0.0551km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,10) PICKRU::{Speed: 90.0000kph, Length: 2.0000km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,11) PACERU::{Speed: 90.0000kph, Length: 0.5000km, Slope: 4.0000°, Corner-Radius: 0.0000m}
+,12) PACERU::{Speed: 90.0000kph, Length: 0.2140km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,13) PACERU::{Speed: 90.0000kph, Length: 5.7231km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,14) DROPRU::{Speed: 50.0000kph, Length: 0.0629km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,15) PACERU::{Speed: 50.0000kph, Length: 1.9719km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+,16) DROPRU::{Speed: 0.0000kph, Length: 0.0281km, Slope: 0.0000rad, Corner-Radius: 0.0000m}
+]
++----------------+
+| GENETIC SEARCH |
++----------------+
+> {[36mPICK[0m [33m70.0000kph[0m [33m0.1290km[0m} <-> {[37mPUM:[0m [31m  2% IC[0m [32m 98% E[0m} -> {[31m29.9932Kg[0m [32m1.9118KWh[0m} || [35mUSD 0.02290141 (1.0000USD)[0m
+> {[36mPACE[0m [33m70.0000kph[0m [33m2.3710km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m29.9932Kg[0m [32m1.6492KWh[0m} || [35mUSD 0.03413027 (1.0000USD)[0m
+> {[36mPICK[0m [33m100.0000kph[0m [33m0.1494km[0m} <-> {[37mPUM:[0m [31m 84% IC[0m [32m 16% E[0m} -> {[31m29.9182Kg[0m [32m1.4170KWh[0m} || [35mUSD 0.15688410 (1.0000USD)[0m
+> {[36mPACE[0m [33m100.0000kph[0m [33m1.9383km[0m} <-> {[37mPUM:[0m [31m  2% IC[0m [32m 98% E[0m} -> {[31m29.9022Kg[0m [32m1.2788KWh[0m} || [35mUSD 0.04497266 (1.0000USD)[0m
+> {[36mDROP[0m [33m0.0000kph[0m [33m0.1124km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m29.9022Kg[0m [32m1.3032KWh[0m}
+> {[36mPICK[0m [33m50.0000kph[0m [33m0.0647km[0m} <-> {[37mPUM:[0m [31m  2% IC[0m [32m 98% E[0m} -> {[31m29.8989Kg[0m [32m1.2623KWh[0m} || [35mUSD 0.01091649 (1.0000USD)[0m
+> {[36mPACE[0m [33m50.0000kph[0m [33m0.4353km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m29.8989Kg[0m [32m1.2448KWh[0m} || [35mUSD 0.00226464 (1.0000USD)[0m
+> {[36mPICK[0m [33m70.0000kph[0m [33m0.0642km[0m} <-> {[37mPUM:[0m [31m  2% IC[0m [32m 98% E[0m} -> {[31m29.8954Kg[0m [32m1.1998KWh[0m} || [35mUSD 0.01169884 (1.0000USD)[0m
+> {[36mPACE[0m [33m70.0000kph[0m [33m4.8808km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m29.8954Kg[0m [32m0.6593KWh[0m} || [35mUSD 0.07025931 (1.0000USD)[0m
+> {[36mDROP[0m [33m0.0000kph[0m [33m0.0551km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m29.8954Kg[0m [32m0.6712KWh[0m}
+> {[36mPICK[0m [33m90.0000kph[0m [33m2.0000km[0m} <-> {[37mPUM:[0m [31m 98% IC[0m [32m  2% E[0m} -> {[31m29.7497Kg[0m [32m0.6592KWh[0m} || [35mUSD 0.24761914 (1.0000USD)[0m
+> {[36mPACE[0m [33m90.0000kph[0m [33m0.5000km[0m} <-> {[37mPUM:[0m [31m  2% IC[0m [32m 98% E[0m} -> {[31m29.7408Kg[0m [32m0.5520KWh[0m} || [35mUSD 0.02905909 (1.0000USD)[0m
+> {[36mPACE[0m [33m90.0000kph[0m [33m0.2140km[0m} <-> {[37mPUM:[0m [31m  2% IC[0m [32m 98% E[0m} -> {[31m29.7392Kg[0m [32m0.5371KWh[0m} || [35mUSD 0.00456188 (1.0000USD)[0m
+> {[36mPACE[0m [33m90.0000kph[0m [33m5.7231km[0m} <-> {[37mPUM:[0m [31m  2% IC[0m [32m 98% E[0m} -> {[31m29.6978Kg[0m [32m0.1368KWh[0m} || [35mUSD 0.12201104 (1.0000USD)[0m
+> {[36mDROP[0m [33m50.0000kph[0m [33m0.0629km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m29.6978Kg[0m [32m0.1516KWh[0m}
+> {[36mPACE[0m [33m50.0000kph[0m [33m1.9719km[0m} <-> {[37mPUM: [0m[32mE Compensation[0m} -> {[31m29.6978Kg[0m [32m0.0727KWh[0m} || [35mUSD 0.01025793 (1.0000USD)[0m
+> {[36mDROP[0m [33m0.0000kph[0m [33m0.0281km[0m} <-> {[37mPUM:[0m [31m  0% IC[0m [32m100% E[0m} -> {[31m29.6978Kg[0m [32m0.0789KWh[0m}
+
+USD 0.76753681 (1.0000USD)

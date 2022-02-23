@@ -1,0 +1,68 @@
++------------------+
+| SIMULATED SEARCH |
++------------------+
+> {PICK 50.0000kph 0.0635km} <-> {PUM: E Compensation} -> {30.0000Kg 3.8542KWh} || USD 0.01895774 (1.0000USD)
+> {PACE 50.0000kph 0.4084km} <-> {PUM: E Compensation} -> {30.0000Kg 3.7766KWh} || USD 0.01008254 (1.0000USD)
+> {DROP 0.0000kph 0.0281km} <-> {PUM:   0% IC 100% E} -> {30.0000Kg 3.8687KWh}
+> {PICK 50.0000kph 0.0635km} <-> {PUM: E Compensation} -> {30.0000Kg 3.7229KWh} || USD 0.01895774 (1.0000USD)
+> {PACE 50.0000kph 0.2084km} <-> {PUM: E Compensation} -> {30.0000Kg 3.6833KWh} || USD 0.00514534 (1.0000USD)
+> {DROP 0.0000kph 0.0281km} <-> {PUM:   0% IC 100% E} -> {30.0000Kg 3.7754KWh}
+> {PICK 50.0000kph 0.0635km} <-> {PUM: E Compensation} -> {30.0000Kg 3.6296KWh} || USD 0.01895774 (1.0000USD)
+> {PACE 50.0000kph 0.9365km} <-> {PUM: E Compensation} -> {30.0000Kg 3.4517KWh} || USD 0.02311900 (1.0000USD)
+> {PICK 70.0000kph 0.0633km} <-> {PUM: E Compensation} -> {30.0000Kg 3.2947KWh} || USD 0.02040871 (1.0000USD)
+> {PACE 70.0000kph 4.9098km} <-> {PUM: E Compensation} -> {30.0000Kg 2.2668KWh} || USD 0.13362999 (1.0000USD)
+> {DROP 50.0000kph 0.0270km} <-> {PUM:   0% IC 100% E} -> {30.0000Kg 2.6860KWh}
+> {PACE 50.0000kph 1.9719km} <-> {PUM: E Compensation} -> {30.0000Kg 2.3115KWh} || USD 0.04867856 (1.0000USD)
+> {DROP 0.0000kph 0.0281km} <-> {PUM:   0% IC 100% E} -> {30.0000Kg 2.4036KWh}
+> {PICK 30.0000kph 0.0214km} <-> {PUM: E Compensation} -> {30.0000Kg 2.3562KWh} || USD 0.00616382 (1.0000USD)
+> {PACE 30.0000kph 0.4786km} <-> {PUM: E Compensation} -> {30.0000Kg 2.2475KWh} || USD 0.01412330 (1.0000USD)
+> {PICK 50.0000kph 0.0427km} <-> {PUM: E Compensation} -> {30.0000Kg 2.1488KWh} || USD 0.01283386 (1.0000USD)
+> {PACE 50.0000kph 1.9573km} <-> {PUM: E Compensation} -> {30.0000Kg 1.7771KWh} || USD 0.04831837 (1.0000USD)
+> {PICK 70.0000kph 0.0633km} <-> {PUM: E Compensation} -> {30.0000Kg 1.6201KWh} || USD 0.02040871 (1.0000USD)
+> {PACE 70.0000kph 4.9367km} <-> {PUM: E Compensation} -> {30.0000Kg 0.5866KWh} || USD 0.13436396 (1.0000USD)
+> {PICK 90.0000kph 0.0962km} <-> {PUM: E Compensation} -> {29.9954Kg 0.3703KWh} || USD 0.03586343 (1.0000USD)
+> {PACE 90.0000kph 9.8409km} <-> {PUM: 100% IC   0% E} -> {28.9578Kg 0.3703KWh} || USD 1.75227713 (1.0000USD)
+> {DROP 50.0000kph 0.0629km} <-> {PUM:   0% IC 100% E} -> {28.9578Kg 1.1806KWh}
+> {PACE 50.0000kph 1.0000km} <-> {PUM: E Compensation} -> {28.9578Kg 0.9908KWh} || USD 0.02467904 (1.0000USD)
+> {PICK 70.0000kph 0.0633km} <-> {PUM: E Compensation} -> {28.9578Kg 0.8339KWh} || USD 0.02039259 (1.0000USD)
+> {PACE 70.0000kph 1.8817km} <-> {PUM: E Compensation} -> {28.9578Kg 0.4400KWh} || USD 0.05120329 (1.0000USD)
+> {DROP 0.0000kph 0.0551km} <-> {PUM:   0% IC 100% E} -> {28.9578Kg 0.6181KWh}
+> {PICK 50.0000kph 0.0635km} <-> {PUM: E Compensation} -> {28.9578Kg 0.4723KWh} || USD 0.01894710 (1.0000USD)
+> {PACE 50.0000kph 1.4365km} <-> {PUM: E Compensation} -> {28.9578Kg 0.1996KWh} || USD 0.03545199 (1.0000USD)
+> {PICK 60.0000kph 0.0290km} <-> {PUM: E Compensation} -> {28.9578Kg 0.1290KWh} || USD 0.00918290 (1.0000USD)
+> {PACE 60.0000kph 0.9587km} <-> {PUM: 100% IC   0% E} -> {28.8571Kg 0.1290KWh} || USD 0.17005866 (1.0000USD)
+> {DROP 50.0000kph 0.0124km} <-> {PUM:   0% IC 100% E} -> {28.8571Kg 0.3413KWh}
+> {PACE 50.0000kph 0.5000km} <-> {PUM: E Compensation} -> {28.8571Kg 0.2464KWh} || USD 0.01233918 (1.0000USD)
+> {PICK 70.0000kph 0.0633km} <-> {PUM: E Compensation} -> {28.8571Kg 0.0896KWh} || USD 0.02039104 (1.0000USD)
+> {PACE 70.0000kph 4.9367km} <-> {PUM: 100% IC   0% E} -> {28.3237Kg 0.0896KWh} || USD 0.90065788 (1.0000USD)
+> {PICK 90.0000kph 3.0000km} <-> {PUM: 100% IC   0% E} -> {28.1699Kg 0.0896KWh} || USD 0.25971096 (1.0000USD)
+> {PACE 90.0000kph 1.0000km} <-> {PUM: 100% IC   0% E} -> {27.9846Kg 0.0896KWh} || USD 0.31301025 (1.0000USD)
+> {PACE 90.0000kph 2.0000km} <-> {PUM: 100% IC   0% E} -> {27.7058Kg 0.0896KWh} || USD 0.47075041 (1.0000USD)
+> {PACE 90.0000kph 0.0962km} <-> {PUM: E Compensation} -> {27.7058Kg 0.0676KWh} || USD 0.00285079 (1.0000USD)
+> {PACE 90.0000kph 2.8409km} <-> {PUM: 100% IC   0% E} -> {27.4063Kg 0.0676KWh} || USD 0.50577659 (1.0000USD)
+> {DROP 50.0000kph 0.0629km} <-> {PUM:   0% IC 100% E} -> {27.4063Kg 0.8780KWh}
+> {PACE 50.0000kph 1.9741km} <-> {PUM: E Compensation} -> {27.4063Kg 0.5034KWh} || USD 0.04869722 (1.0000USD)
+> {DROP 13.8096kph 0.0259km} <-> {PUM:   0% IC 100% E} -> {27.4063Kg 0.5769KWh}
+> {PACE 13.8096kph 0.2000km} <-> {PUM: E Compensation} -> {27.4063Kg 0.4479KWh} || USD 0.01677190 (1.0000USD)
+> {PICK 50.0000kph 0.0610km} <-> {PUM: E Compensation} -> {27.4063Kg 0.2685KWh} || USD 0.02331447 (1.0000USD)
+> {PACE 50.0000kph 0.7130km} <-> {PUM: 100% IC   0% E} -> {27.2628Kg 0.2685KWh} || USD 0.24230363 (1.0000USD)
+> {DROP 13.8096kph 0.0259km} <-> {PUM:   0% IC 100% E} -> {27.2628Kg 0.3420KWh}
+> {PACE 13.8096kph 0.2000km} <-> {PUM: E Compensation} -> {27.2628Kg 0.2130KWh} || USD 0.01677125 (1.0000USD)
+> {PICK 50.0000kph 0.0610km} <-> {PUM: E Compensation} -> {27.2628Kg 0.0337KWh} || USD 0.02331277 (1.0000USD)
+> {PACE 50.0000kph 0.7123km} <-> {PUM: 100% IC   0% E} -> {27.1195Kg 0.0337KWh} || USD 0.24205653 (1.0000USD)
+> {DROP 11.2755kph 0.0267km} <-> {PUM:   0% IC 100% E} -> {27.1195Kg 0.1091KWh}
+> {PACE 11.2755kph 0.2000km} <-> {PUM: 100% IC   0% E} -> {27.0455Kg 0.1091KWh} || USD 0.12495355 (1.0000USD)
+> {PICK 50.0000kph 0.0628km} <-> {PUM: 100% IC   0% E} -> {26.9718Kg 0.1091KWh} || USD 0.12440488 (1.0000USD)
+> {PACE 50.0000kph 1.5106km} <-> {PUM: 100% IC   0% E} -> {26.6580Kg 0.1091KWh} || USD 0.52999097 (1.0000USD)
+> {DROP 11.2755kph 0.0267km} <-> {PUM:   0% IC 100% E} -> {26.6580Kg 0.1875KWh}
+> {PACE 11.2755kph 0.2000km} <-> {PUM: E Compensation} -> {26.6580Kg 0.0747KWh} || USD 0.01466652 (1.0000USD)
+> {PICK 50.0000kph 0.8000km} <-> {PUM: 100% IC   0% E} -> {26.5843Kg 0.0747KWh} || USD 0.12438222 (1.0000USD)
+> {PACE 50.0000kph 0.0629km} <-> {PUM: E Compensation} -> {26.5843Kg 0.0302KWh} || USD 0.00577805 (1.0000USD)
+> {PACE 50.0000kph 0.9105km} <-> {PUM: 100% IC   0% E} -> {26.3125Kg 0.0302KWh} || USD 0.45896958 (1.0000USD)
+> {DROP 11.2755kph 0.0267km} <-> {PUM:   0% IC 100% E} -> {26.3125Kg 0.0970KWh}
+> {PACE 11.2755kph 0.1000km} <-> {PUM: E Compensation} -> {26.3125Kg 0.0144KWh} || USD 0.01074097 (1.0000USD)
+> {PICK 50.0000kph 0.0629km} <-> {PUM: 100% IC   0% E} -> {26.2283Kg 0.0144KWh} || USD 0.14225945 (1.0000USD)
+> {PACE 50.0000kph 0.9091km} <-> {PUM: 100% IC   0% E} -> {25.9570Kg 0.0144KWh} || USD 0.45821022 (1.0000USD)
+> {DROP 0.0000kph 0.0281km} <-> {PUM:   0% IC 100% E} -> {25.9570Kg 0.1065KWh}
+
+USD 7.74527679 (1.0000USD)
